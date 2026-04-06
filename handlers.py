@@ -4,8 +4,10 @@ from aiogram.filters import CommandStart
 
 router = Router()
 
+user_last_category = {}
+
 PRODUCTS = {
-    "hoodie_1": {
+    "Зип-худи:Balenciaga": {
         "category": "zip_hoodie",
         "photos": [
             "AgACAgIAAxkBAAMUadNvRVXH9NKocazjvEBGfcxN6k8AAkMVaxuHV5hK8UI5i71IETsBAAMCAAN5AAM7BA",
@@ -60,18 +62,20 @@ async def show_category(callback: CallbackQuery):
     )
     await callback.answer()
 
-@router.callback_query()
+@router.callback_query(F.data.in_(list(PRODUCTS.keys())))
 async def open_product(callback: CallbackQuery):
-    if callback.data not in PRODUCTS:
-        return 
     product_id = callback.data
     user_id = callback.from_user.id
-    category_id = PRODUCTS[product_id].get("category")  
-    if category_id:
-        user_last_category[user_id] = category_id
+
+    # сохраняем категорию для кнопки "назад"
+    category_id = PRODUCTS[product_id]["category"]
+    user_last_category[user_id] = category_id
+
     if user_id not in user_photo_index:
         user_photo_index[user_id] = {}
-    user_photo_index[user_id][product_id] = 0  
+
+    user_photo_index[user_id][product_id] = 0
+
     await update_product(callback, product_id, 0)
     await callback.answer()
 
@@ -101,16 +105,21 @@ async def prev_photo(callback: CallbackQuery):
 
 @router.callback_query(F.data == "back_to_category")
 async def back_to_category(callback: CallbackQuery):
-    product_id = None
-    # Определяем продукт, чтобы узнать категорию
-    for uid_products in user_photo_index.values():
-        if callback.from_user.id in user_photo_index and uid_products:
-            product_id = list(uid_products.keys())[0]
-            break
-    if product_id:
-        category_id = PRODUCTS[product_id]["category"]
-        callback.data = category_id
-        await show_category(callback)
+    user_id = callback.from_user.id
+    category_id = user_last_category.get(user_id)
+    if not category_id:
+        await callback.answer("Ошибка возврата", show_alert=True)
+        return
+    buttons = [
+        [InlineKeyboardButton(text=f"🔥 {pid}", callback_data=pid)]
+        for pid in CATEGORIES[category_id]
+    ]
+    buttons.append([InlineKeyboardButton(text="⬅️ Назад", callback_data="back_to_catalog")])
+    await callback.message.edit_text(
+        f"Категория: {category_id}\nВыберите товар:",
+        reply_markup=InlineKeyboardMarkup(inline_keyboard=buttons)
+    )
+    await callback.answer()
 
 @router.callback_query(F.data == "back_to_catalog")
 async def back_to_catalog(callback: CallbackQuery):
