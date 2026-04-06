@@ -6,10 +6,8 @@ router = Router()
 
 @router.message(F.photo)
 async def get_file_ids(message: Message):
-    file_id = message.photo[-1].file_id
-    with open("file_ids.txt", "a") as f:
-        f.write(file_id + "\n")
-    await message.answer("✅ Получен file_id!")
+    file_id = message.photo[-1].file_id  
+    await message.answer(f"✅ File ID для этой фотки:\n`{file_id}`", parse_mode="Markdown")
     
 @router.message(CommandStart())
 async def start_command(message: Message):
