@@ -8,7 +8,7 @@ user_last_category = {}
 
 PRODUCTS = {
     "Зип-худи:Balenciaga": {
-        "category": "zip_hoodie",
+        "category": "Зип-худи",
         "photos": [
             "AgACAgIAAxkBAAMUadNvRVXH9NKocazjvEBGfcxN6k8AAkMVaxuHV5hK8UI5i71IETsBAAMCAAN5AAM7BA",
             "AgACAgIAAxkBAAMVadNvRWUQLK05Jfc4ZLSd8_SnUC4AAkQVaxuHV5hK22Z8xGPs08sBAAMCAAN5AAM7BA",
@@ -20,7 +20,7 @@ PRODUCTS = {
 }
 
 CATEGORIES = {
-    "zip_hoodie": ["hoodie_1"]
+    "Зип-худи": ["Зип-худи:Balenciaga"]
 }
 
 user_photo_index = {}
@@ -67,7 +67,6 @@ async def open_product(callback: CallbackQuery):
     product_id = callback.data
     user_id = callback.from_user.id
 
-    # сохраняем категорию для кнопки "назад"
     category_id = PRODUCTS[product_id]["category"]
     user_last_category[user_id] = category_id
 
