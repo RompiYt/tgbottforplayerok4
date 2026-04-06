@@ -51,7 +51,7 @@ async def show_catalog(callback: CallbackQuery):
 
 # ====================== ОТКРЫТЬ ТОВАР ======================
 
-@router.callback_query(F.data.startswith("zip_"))
+@router.callback_query(F.data.in_(list(CATEGORIES.keys())))
 async def show_category(callback: CallbackQuery):
     category_id = callback.data
     buttons = [[InlineKeyboardButton(text=f"🔥 {product_id}", callback_data=product_id)] for product_id in CATEGORIES[category_id]]
@@ -62,7 +62,7 @@ async def show_category(callback: CallbackQuery):
     )
     await callback.answer()
 
-@router.callback_query(F.data.in_(list(CATEGORIES.keys())))
+@router.callback_query(F.data.in_(list(PRODUCTS.keys())))
 async def open_product(callback: CallbackQuery):
     product_id = callback.data
     user_id = callback.from_user.id
