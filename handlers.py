@@ -83,7 +83,7 @@ async def open_product(callback: CallbackQuery):
 @router.callback_query(F.data.startswith("next_photo:"))
 async def next_photo(callback: CallbackQuery):
     user_id = callback.from_user.id
-    product_id = callback.data.split(":")[1]
+    product_id = ":".join(callback.data.split(":")[1:])  # 💥 фикс
     index = user_photo_index.get(user_id, {}).get(product_id, 0)
     if index < len(PRODUCTS[product_id]["photos"]) - 1:
         index += 1
@@ -94,7 +94,7 @@ async def next_photo(callback: CallbackQuery):
 @router.callback_query(F.data.startswith("prev_photo:"))
 async def prev_photo(callback: CallbackQuery):
     user_id = callback.from_user.id
-    product_id = callback.data.split(":")[1]
+    product_id = ":".join(callback.data.split(":")[1:])  # 💥 фикс
     index = user_photo_index.get(user_id, {}).get(product_id, 0)
     if index > 0:
         index -= 1
