@@ -106,18 +106,24 @@ async def prev_photo(callback: CallbackQuery):
 async def back_to_category(callback: CallbackQuery):
     user_id = callback.from_user.id
     category_id = user_last_category.get(user_id)
+
     if not category_id:
         await callback.answer("Ошибка возврата", show_alert=True)
         return
+
     buttons = [
         [InlineKeyboardButton(text=f"🔥 {pid}", callback_data=pid)]
         for pid in CATEGORIES[category_id]
     ]
     buttons.append([InlineKeyboardButton(text="⬅️ Назад", callback_data="back_to_catalog")])
-    await callback.message.edit_text(
+
+    await callback.message.delete()  # 💥 ВАЖНО
+
+    await callback.message.answer(
         f"Категория: {category_id}\nВыберите товар:",
         reply_markup=InlineKeyboardMarkup(inline_keyboard=buttons)
     )
+
     await callback.answer()
 
 @router.callback_query(F.data == "back_to_catalog")
