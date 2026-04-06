@@ -31,11 +31,41 @@ PRODUCTS = {
             "AgACAgIAAxkBAANVadQExD9P-3KeKLo9pEgfqe4hVyUAApYRaxu4LKBKH9-k9ekXVLwBAAMCAAN5AAM7BA",
             "AgACAgIAAxkBAANXadQE1VtzOpdXKUfpGAgUWjbvMeQAApcRaxu4LKBKa3ZWPyfLiaQBAAMCAAN5AAM7BA"
         ]
+    },
+    "Зип-худи:Lacoste":{
+        "name": "Зип-худи:Lacoste",
+        "category": "Зип-худи",
+        "material": "плотный хлопок",
+        "price": "3990",
+        "sizes": "S,M,L,XL,2XL(46,48,50,52,54)",
+        "photos": [
+            "."
+        ]
+    },
+    "Зип-худи:Karl Lagerfeld"{
+        "name": "Зип-худи:Karl Lagerfeld",
+        "category": "Зип-худи",
+        "material": "плотный хлопок",
+        "price": "3890",
+        "sizes": "S,M,L,XL,XXL(46,48,50,52,54)",
+        "photos": [
+            "."
+        ]
+    },
+    "Зип-худи:Burberry"{
+        "name": "Зип-худи:Burberry",
+        "category": "Зип-худи",
+        "material": "плотный хлопок",
+        "price": "3390",
+        "sizes": "M,L,XL,XXL",
+        "photos": [
+            "."
+        ]
     }
 }
 
 CATEGORIES = {
-    "Зип-худи": ["Зип-худи:Balenciaga", "Зип-худи:Polo ralph lauren"]
+    "Зип-худи": ["Зип-худи:Balenciaga", "Зип-худи:Polo ralph lauren", "Зип-худи:Lacoste", "Зип-худи:Karl Lagerfeld", "Зип-худи:Burberry"]
 }
 
 user_photo_index = {}
