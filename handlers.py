@@ -60,8 +60,10 @@ async def show_category(callback: CallbackQuery):
     )
     await callback.answer()
 
-@router.callback_query(F.data in PRODUCTS)
+@router.callback_query()
 async def open_product(callback: CallbackQuery):
+    if callback.data not in PRODUCTS:
+        return  # если это не товар, игнорируем
     product_id = callback.data
     user_id = callback.from_user.id
     if user_id not in user_photo_index:
