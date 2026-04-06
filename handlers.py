@@ -20,11 +20,22 @@ PRODUCTS = {
             "AgACAgIAAxkBAAMSadNvRXcAARFfRiPmTBZk0ZBCsZDzAAJFFWsbh1eYSmhlj_agiHN5AQADAgADeQADOwQ",
             "AgACAgIAAxkBAAMTadNvReGSsvuHG5434g9P4TikvQYAAkIVaxuHV5hK-zwwlzbYx0gBAAMCAAN5AAM7BA"
         ]
+    },
+    "Зип-худи:Polo ralph lauren":{
+        "name": "Зип-худи:Polo ralph lauren",
+        "category": "Зип-худи",
+        "material": "хлопок",
+        "price": "4390",
+        "sizes": "S,M,L,XL(46,48,50,52)",
+        "photos": [
+            "AgACAgIAAxkBAANVadQExD9P-3KeKLo9pEgfqe4hVyUAApYRaxu4LKBKH9-k9ekXVLwBAAMCAAN5AAM7BA",
+            "AgACAgIAAxkBAANXadQE1VtzOpdXKUfpGAgUWjbvMeQAApcRaxu4LKBKa3ZWPyfLiaQBAAMCAAN5AAM7BA"
+        ]
     }
 }
 
 CATEGORIES = {
-    "Зип-худи": ["Зип-худи:Balenciaga"]
+    "Зип-худи": ["Зип-худи:Balenciaga", "Зип-худи:Polo ralph lauren"]
 }
 
 user_photo_index = {}
