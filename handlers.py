@@ -7,7 +7,7 @@ router = Router()
 @router.message(CommandStart())
 async def start_command(message: Message):
     await message.answer(
-        "Здравствуйте! Это каталог интернет-магазина Emendgi.\n\n"
+        "Здравствуйте! Это каталог интернет-магазина Emendgi.\n"
         "Чтобы не листать канал, используйте каталог ниже 👇",
         reply_markup=InlineKeyboardMarkup(inline_keyboard=[
             [InlineKeyboardButton(text="📦 Каталог товаров", callback_data="catalog")]
@@ -17,7 +17,7 @@ async def start_command(message: Message):
 @router.callback_query(F.data == "catalog")
 async def show_catalog(callback: CallbackQuery):
     await callback.message.edit_text(
-        "📦 Наш каталог товаров:\n\n"
+        "📦 Наш каталог товаров:\n"
         "Выберите категорию:",
         reply_markup=InlineKeyboardMarkup(inline_keyboard=[
             [InlineKeyboardButton(text="🧥 Зип худи", callback_data="zip_hoodie")]
@@ -28,7 +28,7 @@ async def show_catalog(callback: CallbackQuery):
 @router.callback_query(F.data == "zip_hoodie")
 async def zip_hoodie(callback: CallbackQuery):
     await callback.message.edit_text(
-        "🧥 Зип худи\n\n"
+        "🧥 Зип худи\n"
         "Тут скоро появятся товары 👀",
         reply_markup=InlineKeyboardMarkup(inline_keyboard=[
             [InlineKeyboardButton(text="⬅️ Назад", callback_data="catalog")]
