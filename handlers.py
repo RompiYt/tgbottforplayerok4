@@ -8,7 +8,11 @@ user_last_category = {}
 
 PRODUCTS = {
     "Зип-худи:Balenciaga": {
+        "name": "Зип-худи:Balenciaga",
         "category": "Зип-худи",
+        "material": "плотный хлопок",
+        "price": "4390",
+        "sizes": "S,M,L,XL,2XL(46,48,50,52,54)",
         "photos": [
             "AgACAgIAAxkBAAMUadNvRVXH9NKocazjvEBGfcxN6k8AAkMVaxuHV5hK8UI5i71IETsBAAMCAAN5AAM7BA",
             "AgACAgIAAxkBAAMVadNvRWUQLK05Jfc4ZLSd8_SnUC4AAkQVaxuHV5hK22Z8xGPs08sBAAMCAAN5AAM7BA",
@@ -133,27 +137,29 @@ async def back_to_catalog(callback: CallbackQuery):
 # ====================== ОБНОВЛЕНИЕ ФОТО ======================
 
 async def update_product(callback: CallbackQuery, product_id: str, index: int):
-    photos = PRODUCTS[product_id]["photos"]
-    category_id = PRODUCTS[product_id]["category"]
+    product = PRODUCTS[product_id]
+    photos = product["photos"]
+
+    caption = (
+        f"🧥 {product['name']}\n"
+        f"•📐размерная сетка:{product['sizes']}\n"
+        f"•🪽материал-{product['material']}\n"
+        f"•🏷️ бирки фирменные\n"
+        f"•📌 логотип-вышит\n"
+        f"•💸 цена - {product['price']}\n"
+        f"•✅ по поводу оформления заказа писать @EYRoyul  @Emendgi_manager\n"
+        f"•‼️ уточнять о наличии товара у менеджера\n"
+        f"\n📸 {index+1}/{len(photos)}"
+    )
+
     await callback.message.edit_media(
         media=InputMediaPhoto(
             media=photos[index],
-            caption=(
-                "🧥 Зип-худи:Balenciaga\n"
-                "•📐размерная сетка:S,M,L,XL,2XL(46,48,50,52,54)\n"
-                "•🪽материал-плотный хлопок\n"
-                "•🏷️ бирки фирменные\n"
-                "•📌 логотип-вышит\n"
-                "•💸 цена - 4390\n"
-                "•✅ по поводу оформления заказа писать @EYRoyul  @Emendgi_manager\n"
-                "•‼️ уточнять о наличии товара у менеджера\n"
-                f"\n📸 {index+1}/{len(photos)}"
-            )
+            caption=caption
         ),
         reply_markup=get_keyboard(product_id, index)
     )
 
-#кнопки
 
 def get_keyboard(product_id, index):
     photos = PRODUCTS[product_id]["photos"]
