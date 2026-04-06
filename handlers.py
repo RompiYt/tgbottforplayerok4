@@ -63,12 +63,15 @@ async def show_category(callback: CallbackQuery):
 @router.callback_query()
 async def open_product(callback: CallbackQuery):
     if callback.data not in PRODUCTS:
-        return  # если это не товар, игнорируем
+        return 
     product_id = callback.data
     user_id = callback.from_user.id
+    category_id = PRODUCTS[product_id].get("category")  
+    if category_id:
+        user_last_category[user_id] = category_id
     if user_id not in user_photo_index:
         user_photo_index[user_id] = {}
-    user_photo_index[user_id][product_id] = 0
+    user_photo_index[user_id][product_id] = 0  
     await update_product(callback, product_id, 0)
     await callback.answer()
 
