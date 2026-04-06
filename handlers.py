@@ -44,7 +44,7 @@ async def show_catalog(callback: CallbackQuery):
     await callback.message.edit_text(
         "📦 Наш каталог товаров:\nВыберите категорию:",
         reply_markup=InlineKeyboardMarkup(inline_keyboard=[
-            [InlineKeyboardButton(text="🧥 Зип худи", callback_data="zip_hoodie")]
+            InlineKeyboardButton(text="🧥 Зип худи", callback_data="Зип-худи")
         ])
     )
     await callback.answer()
@@ -62,7 +62,7 @@ async def show_category(callback: CallbackQuery):
     )
     await callback.answer()
 
-@router.callback_query(F.data.in_(list(PRODUCTS.keys())))
+@router.callback_query(F.data.in_(list(CATEGORIES.keys())))
 async def open_product(callback: CallbackQuery):
     product_id = callback.data
     user_id = callback.from_user.id
