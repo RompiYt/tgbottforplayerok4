@@ -5,18 +5,25 @@ from aiogram.filters import CommandStart
 router = Router()
 
 PRODUCTS = {
-    "hoodie_1": [
-        "AgACAgIAAxkBAAMUadNvRVXH9NKocazjvEBGfcxN6k8AAkMVaxuHV5hK8UI5i71IETsBAAMCAAN5AAM7BA",
-        "AgACAgIAAxkBAAMVadNvRWUQLK05Jfc4ZLSd8_SnUC4AAkQVaxuHV5hK22Z8xGPs08sBAAMCAAN5AAM7BA",
-        "AgACAgIAAxkBAAMPadNuQ0zSLASEATZsMd71T_vOgO4AAkAVaxuHV5hKz0SwF1GIX98BAAMCAAN5AAM7BA",
-        "AgACAgIAAxkBAAMSadNvRXcAARFfRiPmTBZk0ZBCsZDzAAJFFWsbh1eYSmhlj_agiHN5AQADAgADeQADOwQ",
-        "AgACAgIAAxkBAAMTadNvReGSsvuHG5434g9P4TikvQYAAkIVaxuHV5hK-zwwlzbYx0gBAAMCAAN5AAM7BA"
-    ]
+    "hoodie_1": {
+        "category": "zip_hoodie",
+        "photos": [
+            "AgACAgIAAxkBAAMUadNvRVXH9NKocazjvEBGfcxN6k8AAkMVaxuHV5hK8UI5i71IETsBAAMCAAN5AAM7BA",
+            "AgACAgIAAxkBAAMVadNvRWUQLK05Jfc4ZLSd8_SnUC4AAkQVaxuHV5hK22Z8xGPs08sBAAMCAAN5AAM7BA",
+            "AgACAgIAAxkBAAMPadNuQ0zSLASEATZsMd71T_vOgO4AAkAVaxuHV5hKz0SwF1GIX98BAAMCAAN5AAM7BA",
+            "AgACAgIAAxkBAAMSadNvRXcAARFfRiPmTBZk0ZBCsZDzAAJFFWsbh1eYSmhlj_agiHN5AQADAgADeQADOwQ",
+            "AgACAgIAAxkBAAMTadNvReGSsvuHG5434g9P4TikvQYAAkIVaxuHV5hK-zwwlzbYx0gBAAMCAAN5AAM7BA"
+        ]
+    }
+}
+
+CATEGORIES = {
+    "zip_hoodie": ["hoodie_1"]
 }
 
 user_photo_index = {}
 
-# ====================== START ======================
+# ======================== START ========================================
 
 @router.message(CommandStart())
 async def start_command(message: Message):
@@ -40,19 +47,20 @@ async def show_catalog(callback: CallbackQuery):
     )
     await callback.answer()
 
-@router.callback_query(F.data == "zip_hoodie")
-async def zip_hoodie(callback: CallbackQuery):
+# ====================== ОТКРЫТЬ ТОВАР ======================
+
+@router.callback_query(F.data.startswith("zip_"))
+async def show_category(callback: CallbackQuery):
+    category_id = callback.data
+    buttons = [[InlineKeyboardButton(text=f"🔥 {product_id}", callback_data=product_id)] for product_id in CATEGORIES[category_id]]
+    buttons.append([InlineKeyboardButton(text="⬅️ Назад", callback_data="back_to_catalog")])
     await callback.message.edit_text(
-        "🧥 Зип худи\nВыберите товар:",
-        reply_markup=InlineKeyboardMarkup(inline_keyboard=[
-            [InlineKeyboardButton(text="🔥 Зип-худи:Balenciaga", callback_data="hoodie_1")]
-        ])
+        f"Категория: {category_id}\nВыберите товар:",
+        reply_markup=InlineKeyboardMarkup(inline_keyboard=buttons)
     )
     await callback.answer()
 
-# ====================== ОТКРЫТЬ ТОВАР ======================
-
-@router.callback_query(F.data.startswith("hoodie_"))
+@router.callback_query(F.data in PRODUCTS)
 async def open_product(callback: CallbackQuery):
     product_id = callback.data
     user_id = callback.from_user.id
@@ -69,7 +77,7 @@ async def next_photo(callback: CallbackQuery):
     user_id = callback.from_user.id
     product_id = callback.data.split(":")[1]
     index = user_photo_index.get(user_id, {}).get(product_id, 0)
-    if index < len(PRODUCTS[product_id]) - 1:
+    if index < len(PRODUCTS[product_id]["photos"]) - 1:
         index += 1
         user_photo_index[user_id][product_id] = index
         await update_product(callback, product_id, index)
@@ -88,20 +96,29 @@ async def prev_photo(callback: CallbackQuery):
 
 @router.callback_query(F.data == "back_to_category")
 async def back_to_category(callback: CallbackQuery):
-    await callback.message.edit_text(
-        "🧥 Зип худи\nВыберите товар:",
-        reply_markup=InlineKeyboardMarkup(inline_keyboard=[
-            [InlineKeyboardButton(text="🔥 Зип-худи:Balenciaga", callback_data="hoodie_1")]
-        ])
-    )
-    await callback.answer()
+    product_id = None
+    # Определяем продукт, чтобы узнать категорию
+    for uid_products in user_photo_index.values():
+        if callback.from_user.id in user_photo_index and uid_products:
+            product_id = list(uid_products.keys())[0]
+            break
+    if product_id:
+        category_id = PRODUCTS[product_id]["category"]
+        callback.data = category_id
+        await show_category(callback)
+
+@router.callback_query(F.data == "back_to_catalog")
+async def back_to_catalog(callback: CallbackQuery):
+    await show_catalog(callback)
 
 # ====================== ОБНОВЛЕНИЕ ФОТО ======================
 
 async def update_product(callback: CallbackQuery, product_id: str, index: int):
+    photos = PRODUCTS[product_id]["photos"]
+    category_id = PRODUCTS[product_id]["category"]
     await callback.message.edit_media(
         media=InputMediaPhoto(
-            media=PRODUCTS[product_id][index],
+            media=photos[index],
             caption=(
                 "🧥 Зип-худи:Balenciaga\n"
                 "•📐размерная сетка:S,M,L,XL,2XL(46,48,50,52,54)\n"
@@ -111,20 +128,21 @@ async def update_product(callback: CallbackQuery, product_id: str, index: int):
                 "•💸 цена - 4390\n"
                 "•✅ по поводу оформления заказа писать @EYRoyul  @Emendgi_manager\n"
                 "•‼️ уточнять о наличии товара у менеджера\n"
-                f"\n📸 {index+1}/{len(PRODUCTS[product_id])}"
+                f"\n📸 {index+1}/{len(photos)}"
             )
         ),
         reply_markup=get_keyboard(product_id, index)
     )
-    
-# ====================== КНОПКИ ======================
+
+#кнопки
 
 def get_keyboard(product_id, index):
+    photos = PRODUCTS[product_id]["photos"]
     buttons = []
     nav_row = []
     if index > 0:
         nav_row.append(InlineKeyboardButton(text="⬅️", callback_data=f"prev_photo:{product_id}"))
-    if index < len(PRODUCTS[product_id]) - 1:
+    if index < len(photos) - 1:
         nav_row.append(InlineKeyboardButton(text="➡️", callback_data=f"next_photo:{product_id}"))
     if nav_row:
         buttons.append(nav_row)
