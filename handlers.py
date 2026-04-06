@@ -4,6 +4,13 @@ from aiogram.filters import CommandStart
 
 router = Router()
 
+@router.message()
+async def get_file_ids(message: Message):
+    if message.photo:
+        file_id = message.photo[-1].file_id
+        with open("file_ids.txt", "a") as f:
+            f.write(file_id + "\n")
+
 @router.message(CommandStart())
 async def start_command(message: Message):
     await message.answer(
