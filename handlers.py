@@ -11,15 +11,13 @@ PRODUCTS = {
         "AgACAgIAAxkBAAMPadNuQ0zSLASEATZsMd71T_vOgO4AAkAVaxuHV5hKz0SwF1GIX98BAAMCAAN5AAM7BA",
         "AgACAgIAAxkBAAMSadNvRXcAARFfRiPmTBZk0ZBCsZDzAAJFFWsbh1eYSmhlj_agiHN5AQADAgADeQADOwQ",
         "AgACAgIAAxkBAAMTadNvReGSsvuHG5434g9P4TikvQYAAkIVaxuHV5hK-zwwlzbYx0gBAAMCAAN5AAM7BA"
-    ],
-    # сюда можно добавлять новые товары
-    # "hoodie_2": [...],
+    ]
 }
 
-user_photo_index = {}  # user_id -> {product_id: index}
-
+user_photo_index = {}
 
 # ====================== START ======================
+
 @router.message(CommandStart())
 async def start_command(message: Message):
     await message.answer(
@@ -30,8 +28,8 @@ async def start_command(message: Message):
         ])
     )
 
-
 # ====================== КАТАЛОГ ======================
+
 @router.callback_query(F.data == "catalog")
 async def show_catalog(callback: CallbackQuery):
     await callback.message.edit_text(
@@ -42,21 +40,18 @@ async def show_catalog(callback: CallbackQuery):
     )
     await callback.answer()
 
-
 @router.callback_query(F.data == "zip_hoodie")
 async def zip_hoodie(callback: CallbackQuery):
-    # Список товаров в категории
     await callback.message.edit_text(
         "🧥 Зип худи\nВыберите товар:",
         reply_markup=InlineKeyboardMarkup(inline_keyboard=[
-            [InlineKeyboardButton(text="🔥 Hoodie Black", callback_data="hoodie_1")],
-            [InlineKeyboardButton(text="⬅️ Назад", callback_data="catalog")]
+            [InlineKeyboardButton(text="🔥 Зип-худи:Balenciaga", callback_data="hoodie_1")]
         ])
     )
     await callback.answer()
 
-
 # ====================== ОТКРЫТЬ ТОВАР ======================
+
 @router.callback_query(F.data.startswith("hoodie_"))
 async def open_product(callback: CallbackQuery):
     product_id = callback.data
@@ -67,13 +62,12 @@ async def open_product(callback: CallbackQuery):
     await update_product(callback, product_id, 0)
     await callback.answer()
 
-
 # ====================== КАРУСЕЛЬ ======================
+
 @router.callback_query(F.data.startswith("next_photo:"))
 async def next_photo(callback: CallbackQuery):
     user_id = callback.from_user.id
     product_id = callback.data.split(":")[1]
-
     index = user_photo_index.get(user_id, {}).get(product_id, 0)
     if index < len(PRODUCTS[product_id]) - 1:
         index += 1
@@ -81,12 +75,10 @@ async def next_photo(callback: CallbackQuery):
         await update_product(callback, product_id, index)
     await callback.answer()
 
-
 @router.callback_query(F.data.startswith("prev_photo:"))
 async def prev_photo(callback: CallbackQuery):
     user_id = callback.from_user.id
     product_id = callback.data.split(":")[1]
-
     index = user_photo_index.get(user_id, {}).get(product_id, 0)
     if index > 0:
         index -= 1
@@ -94,8 +86,18 @@ async def prev_photo(callback: CallbackQuery):
         await update_product(callback, product_id, index)
     await callback.answer()
 
+@router.callback_query(F.data == "back_to_category")
+async def back_to_category(callback: CallbackQuery):
+    await callback.message.edit_text(
+        "🧥 Зип худи\nВыберите товар:",
+        reply_markup=InlineKeyboardMarkup(inline_keyboard=[
+            [InlineKeyboardButton(text="🔥 Зип-худи:Balenciaga", callback_data="hoodie_1")]
+        ])
+    )
+    await callback.answer()
 
 # ====================== ОБНОВЛЕНИЕ ФОТО ======================
+
 async def update_product(callback: CallbackQuery, product_id: str, index: int):
     await callback.message.edit_media(
         media=InputMediaPhoto(
@@ -114,26 +116,22 @@ async def update_product(callback: CallbackQuery, product_id: str, index: int):
         ),
         reply_markup=get_keyboard(product_id, index)
     )
-
-
+    
 # ====================== КНОПКИ ======================
+
 def get_keyboard(product_id, index):
     buttons = []
     nav_row = []
-
     if index > 0:
         nav_row.append(InlineKeyboardButton(text="⬅️", callback_data=f"prev_photo:{product_id}"))
     if index < len(PRODUCTS[product_id]) - 1:
         nav_row.append(InlineKeyboardButton(text="➡️", callback_data=f"next_photo:{product_id}"))
     if nav_row:
         buttons.append(nav_row)
-
-    buttons.append([InlineKeyboardButton(text="⬅️ Назад", callback_data="zip_hoodie")])
+    buttons.append([InlineKeyboardButton(text="⬅️ Назад", callback_data="back_to_category")])
     return InlineKeyboardMarkup(inline_keyboard=buttons)
 
-
-# ====================== ПОЛУЧЕНИЕ FILE_ID ======================
 @router.message(F.photo)
 async def get_file_ids(message: Message):
-    file_id = message.photo[-1].file_id  
+    file_id = message.photo[-1].file_id
     await message.answer(f"✅ File ID для этой фотки:\n`{file_id}`", parse_mode="Markdown")
