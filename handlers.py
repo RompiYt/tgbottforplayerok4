@@ -4,20 +4,18 @@ from aiogram.filters import CommandStart
 
 router = Router()
 
-# Пример каталога товаров
 PRODUCTS = {
     "hoodie_1": [
-        "file_id_1",
-        "file_id_2",
-        "file_id_3",
-        "file_id_4",
-        "file_id_5"
+        "AgACAgIAAxkBAAMPadNuQ0zSLASEATZsMd71T_vOgO4AAkAVaxuHV5hKz0SwF1GIX98BAAMCAAN5AAM7BA",
+        "AgACAgIAAxkBAAMSadNvRXcAARFfRiPmTBZk0ZBCsZDzAAJFFWsbh1eYSmhlj_agiHN5AQADAgADeQADOwQ",
+        "AgACAgIAAxkBAAMUadNvRVXH9NKocazjvEBGfcxN6k8AAkMVaxuHV5hK8UI5i71IETsBAAMCAAN5AAM7BA",
+        "AgACAgIAAxkBAAMVadNvRWUQLK05Jfc4ZLSd8_SnUC4AAkQVaxuHV5hK22Z8xGPs08sBAAMCAAN5AAM7BA",
+        "AgACAgIAAxkBAAMTadNvReGSsvuHG5434g9P4TikvQYAAkIVaxuHV5hK-zwwlzbYx0gBAAMCAAN5AAM7BA"
     ],
     # сюда можно добавлять новые товары
     # "hoodie_2": [...],
 }
 
-# храним индекс текущей фотки для каждого пользователя и товара
 user_photo_index = {}  # user_id -> {product_id: index}
 
 
