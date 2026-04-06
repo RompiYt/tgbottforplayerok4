@@ -44,7 +44,7 @@ async def show_catalog(callback: CallbackQuery):
     await callback.message.edit_text(
         "📦 Наш каталог товаров:\nВыберите категорию:",
         reply_markup=InlineKeyboardMarkup(inline_keyboard=[
-            InlineKeyboardButton(text="🧥 Зип худи", callback_data="Зип-худи")
+            [InlineKeyboardButton(text="🧥 Зип худи", callback_data="Зип-худи")]
         ])
     )
     await callback.answer()
