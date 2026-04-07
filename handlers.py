@@ -11,8 +11,10 @@ PRODUCTS = {
         "name": "Зип-худи:Balenciaga",
         "category": "Зип-худи",
         "material": "плотный хлопок",
+        "colors": "черный🖤",
         "price": "4390",
         "sizes": "S,M,L,XL,2XL(46,48,50,52,54)",
+        "logo": "вышит",
         "photos": [
             "AgACAgIAAxkBAAMUadNvRVXH9NKocazjvEBGfcxN6k8AAkMVaxuHV5hK8UI5i71IETsBAAMCAAN5AAM7BA",
             "AgACAgIAAxkBAAMVadNvRWUQLK05Jfc4ZLSd8_SnUC4AAkQVaxuHV5hK22Z8xGPs08sBAAMCAAN5AAM7BA",
@@ -25,8 +27,10 @@ PRODUCTS = {
         "name": "Зип-худи:Polo ralph lauren",
         "category": "Зип-худи",
         "material": "хлопок",
+        "colors": "черный🖤",
         "price": "4390",
         "sizes": "S,M,L,XL(46,48,50,52)",
+        "logo": "вышит",
         "photos": [
             "AgACAgIAAxkBAANVadQExD9P-3KeKLo9pEgfqe4hVyUAApYRaxu4LKBKH9-k9ekXVLwBAAMCAAN5AAM7BA",
             "AgACAgIAAxkBAANXadQE1VtzOpdXKUfpGAgUWjbvMeQAApcRaxu4LKBKa3ZWPyfLiaQBAAMCAAN5AAM7BA"
@@ -36,30 +40,59 @@ PRODUCTS = {
         "name": "Зип-худи:Lacoste",
         "category": "Зип-худи",
         "material": "плотный хлопок",
+        "colors": "черный🖤",
         "price": "3990",
         "sizes": "S,M,L,XL,2XL(46,48,50,52,54)",
+        "logo": "вышит",
         "photos": [
-            "."
+            "AgACAgIAAxkBAANoadS4wBJxWanC_5JpaCsqKDrkcvwAAooTaxu4LKBKQ5m_dREv690BAAMCAAN5AAM7BA",
+            "AgACAgIAAxkBAANjadS4wJxnLcphqcxLxZ3asRHMMhkAAoMTaxu4LKBKHBrzFYDRF8IBAAMCAAN5AAM7BA",
+            "AgACAgIAAxkBAANladS4wOViQtKfLtyK0IQbOW9tGEoAAoUTaxu4LKBKsPZCz_lQtKwBAAMCAAN5AAM7BA",
+            "AgACAgIAAxkBAANpadS4wLrUPXFCs2-axLxweAbacygAAogTaxu4LKBKa-IunSJamKYBAAMCAAN5AAM7BA",
+            "AgACAgIAAxkBAANnadS4wAgInRY0wdAyNZRbpm1gP2AAAokTaxu4LKBKUSfcev_oewIBAAMCAAN5AAM7BA",
+            "AgACAgIAAxkBAANradS4wHPBlT9y3EX5p57yhqyJ_pcAAocTaxu4LKBKGbZ5DsBOA4UBAAMCAAN5AAM7BA",
+            "AgACAgIAAxkBAANkadS4wB9K0f22KmfLV9xKJnPF3wwAAoQTaxu4LKBKJYZCjoKs5MsBAAMCAAN5AAM7BA",
+            "AgACAgIAAxkBAANmadS4wDzDGGd5c1AtIRTuoXNvcPIAAosTaxu4LKBKzKNfYP4AAfpHAQADAgADeQADOwQ",
+            "AgACAgIAAxkBAANqadS4wFenr0tEkBfVlI79CiUsOqUAAoYTaxu4LKBKobYYqcTjdMgBAAMCAAN5AAM7BA"
         ]
     },
     "Зип-худи:Karl Lagerfeld":{
         "name": "Зип-худи:Karl Lagerfeld",
         "category": "Зип-худи",
         "material": "плотный хлопок",
+        "colors": "черный🖤",
         "price": "3890",
         "sizes": "S,M,L,XL,XXL(46,48,50,52,54)",
+        "logo": "3D силикон",
         "photos": [
-            "."
+            "AgACAgIAAxkBAAN3adS6C9ZADwzW9IfCNyJ8hmy7dNAAApMTaxu4LKBKf0BMJtsbVD4BAAMCAAN5AAM7BA",
+            "AgACAgIAAxkBAAN1adS6C8dIxUWD-1pu97A-xifTf4gAApITaxu4LKBKfTOTuQcmCAYBAAMCAAN5AAM7BA",
+            "AgACAgIAAxkBAAN6adS6Cz9YHz9vXNhB_8LE_zny_fgAApQTaxu4LKBKAfxf9vJZTVQBAAMCAAN5AAM7BA",
+            "AgACAgIAAxkBAAN5adS6C23JA6U7SFbb_1ffoBMAAbuWAAKXE2sbuCygSoKpuVNN-09-AQADAgADeQADOwQ",
+            "AgACAgIAAxkBAAN2adS6C0ABVM7726iA_T8Vl5MV5LMAApETaxu4LKBKgoXTr63lDi4BAAMCAAN5AAM7BA",
+            "AgACAgIAAxkBAAN7adS6CxYQv2P1Vc787MvWhS573VAAApYTaxu4LKBKWFluthe_24oBAAMCAAN5AAM7BA",
+            "AgACAgIAAxkBAAN8adS6C4XR6l9i9L3HtE6EtYLDQacAApATaxu4LKBK6KewSbmVKfcBAAMCAAN5AAM7BA",
+            "AgACAgIAAxkBAAN4adS6C46k1W0SWifat0OYQW8csnUAApUTaxu4LKBK4UnO8ellEVYBAAMCAAN5AAM7BA"
         ]
     },
     "Зип-худи:Burberry":{
         "name": "Зип-худи:Burberry",
         "category": "Зип-худи",
         "material": "плотный хлопок",
+        "colors": "черный🖤/серый🩶",
         "price": "3390",
         "sizes": "M,L,XL,XXL",
+        "logo": "вышит",
         "photos": [
-            "."
+            "AgACAgIAAxkBAAOHadTIN9BWll1r65-PhUanYndXD9wAAssTaxu4LKBKUOETptCbb6kBAAMCAAN5AAM7BA",
+            "AgACAgIAAxkBAAOJadTINz_fyNYP-JJ6HjxtViJjlt4AAswTaxu4LKBKB8-Je2cI-isBAAMCAAN5AAM7BA",
+            "AgACAgIAAxkBAAOMadTIN3tFBmZjugeqbO6GsblWQ0MAAs8Taxu4LKBKkV4VZkaDSjUBAAMCAAN5AAM7BA",
+            "AgACAgIAAxkBAAOKadTIN20rDurF3mKTRVxUIU1AAAH-AALNE2sbuCygSt36fJl4lFCnAQADAgADeQADOwQ",
+            "AgACAgIAAxkBAAOFadTIN6p1sEjN5w0_GmYPhaEAAQrTAALIE2sbuCygSqJQ9ti21J2xAQADAgADeQADOwQ",
+            "AgACAgIAAxkBAAOIadTINxPd_amRZit8g76TnI-tj0sAAsoTaxu4LKBKqtBObw-JZYoBAAMCAAN5AAM7BA",
+            "AgACAgIAAxkBAAOLadTIN6ve80zmStb28G7mbp6-jEoAAs4Taxu4LKBKzXHNxhVgx1cBAAMCAAN5AAM7BA",
+            "AgACAgIAAxkBAAONadTIN4v5CQqk82gSiKLXbCcR7NgAAtATaxu4LKBKWF9VFqOQk_cBAAMCAAN5AAM7BA",
+            "AgACAgIAAxkBAAOGadTINzxdEGiW74MI7gNGmWLInacAAskTaxu4LKBKkXmGntN-XoABAAMCAAN5AAM7BA"
         ]
     }
 }
@@ -185,8 +218,9 @@ async def update_product(callback: CallbackQuery, product_id: str, index: int):
         f"🧥 {product['name']}\n"
         f"•📐размерная сетка:{product['sizes']}\n"
         f"•🪽материал-{product['material']}\n"
+        f"•🎨 цвета в наличии:{product['colors']}\n"
         f"•🏷️ бирки фирменные\n"
-        f"•📌 логотип-вышит\n"
+        f"•📌 логотип-{product['logo']}\n"
         f"•💸 цена - {product['price']}\n"
         f"•✅ по поводу оформления заказа писать @EYRoyul  @Emendgi_manager\n"
         f"•‼️ уточнять о наличии товара у менеджера\n"
