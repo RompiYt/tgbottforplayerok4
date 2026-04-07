@@ -228,7 +228,7 @@ PRODUCTS = {
         ]
     },
     "Свитшот:BAPE":{
-        "name: "Свитшот:BAPE",
+        "name": "Свитшот:BAPE",
         "category": "Свитшот",
         "material": "хлопок,полиэстер",
         "colors": "белый🤍",
