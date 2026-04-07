@@ -250,6 +250,126 @@ PRODUCTS = {
         "photos": [
             "AgACAgIAAxkBAAMUadNvRVXH9NKocazjvEBGfcxN6k8AAkMVaxuHV5hK8UI5i71IETsBAAMCAAN5AAM7BA",
         ]
+    },
+    "Лонгслив:BAPE Chrome Hearts":{
+        "name": "Лонгслив:BAPE Chrome Hearts",
+        "category": "Лонгслив",
+        "material": "хлопок,полиэстер",
+        "colors": "черный🖤",
+        "price": "2890",
+        "sizes": "S,M,L,XL,2XL(46,48,50,52,54)",
+        "logo": "DTF печать",
+        "photos": [
+            "",
+        ]
+    },
+    "Лонгслив:Gucci Garden":{
+        "name": "Лонгслив:Gucci Garden",
+        "category": "Лонгслив",
+        "material": "хлопок,полиэстер",
+        "colors": "белый🤍",
+        "price": "3199",
+        "sizes": "",
+        "logo": "DTF печать",
+        "photos": [
+            "",
+        ]
+    },
+    "Джинсы:Fred Perry and Lyle Scott":{
+        "name": "Джинсы:Fred Perry and Lyle Scott",
+        "category": "Джинсы",
+        "material": "деним",
+        "colors": "черный🖤",
+        "price": "4390",
+        "sizes": "XS,S,M,L,XL,2XL(44,46,48,50,52,54)",
+        "logo": "вышит",
+        "photos": [
+            "",
+        ]
+    },
+    "Штаны широкие:Corteiz":{
+        "name": "Штаны широкие:Corteiz",
+        "category": "Спортивные-штаны",
+        "material": "трикотаж",
+        "colors": "черный🖤",
+        "price": "3700",
+        "sizes": "S,M,L,XL,2XL(46,48,50,52,54)",
+        "logo": "вышит",
+        "photos": [
+            "",
+        ]
+    },
+    "Жилетка:Polo x Italy":{
+        "name": "Жилетка:Polo x Italy",
+        "category": "Жилетка",
+        "material": "хлопок",
+        "colors": "черный🖤/серый🩶",
+        "price": "3500",
+        "sizes": "S,M,L,XL,2XL(46,48,50,52,54)",
+        "logo": "DTF печать",
+        "photos": [
+            "",
+        ]
+    },
+    "Поло:Corteiz":{
+        "name": "Поло:Corteiz",
+        "category": "Поло",
+        "material": "хлопок",
+        "colors": "черный🖤",
+        "price": "2890",
+        "sizes": "S,M,L,XL,2XL(46,48,50,52,54)",
+        "logo": "DTF печать",
+        "photos": [
+            "",
+        ]
+    },
+    "Лонгслив:Chrome Hearts":{
+        "name": "Лонгслив:Chrome Hearts",
+        "category": "Лонгслив",
+        "material": "хлопок,полиэстер",
+        "colors": "черный🖤",
+        "price": "3000",
+        "sizes": "S,M,L,XL,2XL(46,48,50,52,54)",
+        "logo": "DTF печать",
+        "photos": [
+            "",
+        ]
+    },
+    "Поло:polo ralph lauren":{
+        "name": "Поло:polo ralph lauren",
+        "category": "Поло",
+        "material": "хлопок",
+        "colors": "черный🖤/белый🤍",
+        "price": "1690",
+        "sizes": "S,M,L,XL(46,48,50,52)",
+        "logo": "вышит",
+        "photos": [
+            "",
+        ]
+    },
+    "Лонгслив:Martine Rose":{
+        "name": "Лонгслив:Martine Rose",
+        "category": "Лонгслив",
+        "material": "хлопок,полиэстер",
+        "colors": "черный🖤",
+        "price": "3000",
+        "sizes": "S,M,L,XL,2XL(46,48,50,52,54)",
+        "logo": "DTF печать",
+        "photos": [
+            "",
+        ]
+    },
+    "Штаны:Nike"{
+        "name": "Штаны:Nike",
+        "category": "Спортивные-штаны",
+        "material": "хлопок",
+        "colors": "белый🤍",
+        "price": "3500",
+        "sizes": "XS,S,M,L,XL(44,46,48,50,52)",
+        "logo": "вышит",
+        "photos": [
+            "",
+        ]
     }
 }
 
@@ -257,7 +377,12 @@ CATEGORIES = {
     "Зип-худи": ["Зип-худи:Balenciaga", "Зип-худи:Polo ralph lauren", "Зип-худи:Lacoste", "Зип-худи:Karl Lagerfeld", "Зип-худи:Burberry"],
     "Футболка": ["Футболка:Aerounautica Мilitare", "Футболка:Balenciaga", "Футболка:Tommy Hilfiger", "Футболка:Emporio Armani", "Футболка:Hugo Dobermann", "Футболка:Hugo Full House", "Футболка:Polo Ralph lauren chief keef", "Футболка:Tommy Hilfiger", "Футболка:Hugo", "Футболка:Guess"],
     "Свитшот": ["Свитшот:GAP Palace", "Свитшот:BAPE"],
-    "Худи": ["Худи:Supreme"]
+    "Худи": ["Худи:Supreme"],
+    "Лонгслив": ["Лонгслив:BAPE Chrome Hearts", "Лонгслив:Gucci Garden", "Лонгслив:Chrome Hearts", "Лонгслив:Martine Rose"],
+    "Джинсы": ["Джинсы:Fred Perry and Lyle Scott"],
+    "Спортивные-штаны": ["Штаны широкие:Corteiz", "Штаны:Nike"],
+    "Жилетка": ["Жилетка:Polo x Italy"],
+    "Поло": ["Поло:Corteiz", "Поло:polo ralph lauren"]
 }
 
 user_photo_index = {}
@@ -282,9 +407,14 @@ async def show_catalog(callback: CallbackQuery):
         "📦 Наш каталог товаров:\nВыберите категорию:",
         reply_markup=InlineKeyboardMarkup(inline_keyboard=[
             [InlineKeyboardButton(text="🧥 Зип худи", callback_data="Зип-худи")],
+            [InlineKeyboardButton(text="🧥 Жилетка", callback_data="Жилетка")],
             [InlineKeyboardButton(text="👕 Футболка", callback_data="Футболка")],
+            [InlineKeyboardButton(text="👕 Поло", callback_data="Поло")],
+            [InlineKeyboardButton(text="👕 Лонгслив", callback_data="Лонгслив")],
             [InlineKeyboardButton(text="👕 Свитшот", callback_data="Свитшот")],
-            [InlineKeyboardButton(text="👕 Худи", callback_data="Худи")]
+            [InlineKeyboardButton(text="👕 Худи", callback_data="Худи")],
+            [InlineKeyboardButton(text="👖 Джинсы", callback_data="Джинсы")],
+            [InlineKeyboardButton(text="👖 Спортивные штаны", callback_data="Спортивные-штаны")]
         ])
     )
     await callback.answer()
