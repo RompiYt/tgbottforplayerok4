@@ -215,11 +215,49 @@ PRODUCTS = {
             "AgACAgIAAxkBAAMUadNvRVXH9NKocazjvEBGfcxN6k8AAkMVaxuHV5hK8UI5i71IETsBAAMCAAN5AAM7BA",
         ]
     },
+    "Свитшот:GAP Palace":{
+        "name": "Свитшот:GAP Palace",
+        "category": "Свитшот",
+        "material": "хлопок,полиэстер",
+        "colors": "серый🩶",
+        "price": "3600",
+        "sizes": "S,M,L,XL,2XL(46,48,50,52,54)",
+        "logo": "DTF печать",
+        "photos": [
+            "AgACAgIAAxkBAAMUadNvRVXH9NKocazjvEBGfcxN6k8AAkMVaxuHV5hK8UI5i71IETsBAAMCAAN5AAM7BA",
+        ]
+    },
+    "Свитшот:BAPE":{
+        "name: "Свитшот:BAPE",
+        "category": "Свитшот",
+        "material": "хлопок,полиэстер",
+        "colors": "белый🤍",
+        "price": "3000",
+        "sizes": "S,M,L,XL,2XL(46,48,50,52,54)",
+        "logo": "DTF печать",
+        "photos": [
+            "AgACAgIAAxkBAAMUadNvRVXH9NKocazjvEBGfcxN6k8AAkMVaxuHV5hK8UI5i71IETsBAAMCAAN5AAM7BA",
+        ]
+    },
+    "Худи:Supreme":{
+        "name": "Худи:Supreme",
+        "category": "Худи",
+        "material": "хлопок",
+        "colors": "красный❤️",
+        "price": "3600",
+        "sizes": "S,M,L,XL,2XL(46,48,50,52,54)",
+        "logo": "DTF печать",
+        "photos": [
+            "AgACAgIAAxkBAAMUadNvRVXH9NKocazjvEBGfcxN6k8AAkMVaxuHV5hK8UI5i71IETsBAAMCAAN5AAM7BA",
+        ]
+    }
 }
 
 CATEGORIES = {
     "Зип-худи": ["Зип-худи:Balenciaga", "Зип-худи:Polo ralph lauren", "Зип-худи:Lacoste", "Зип-худи:Karl Lagerfeld", "Зип-худи:Burberry"],
-    "Футболка": ["Футболка:Aerounautica Мilitare", "Футболка:Balenciaga", "Футболка:Tommy Hilfiger", "Футболка:Emporio Armani", "Футболка:Hugo Dobermann", "Футболка:Hugo Full House", "Футболка:Polo Ralph lauren chief keef", "Футболка:Tommy Hilfiger", "Футболка:Hugo", "Футболка:Guess"]
+    "Футболка": ["Футболка:Aerounautica Мilitare", "Футболка:Balenciaga", "Футболка:Tommy Hilfiger", "Футболка:Emporio Armani", "Футболка:Hugo Dobermann", "Футболка:Hugo Full House", "Футболка:Polo Ralph lauren chief keef", "Футболка:Tommy Hilfiger", "Футболка:Hugo", "Футболка:Guess"],
+    "Свитшот": ["Свитшот:GAP Palace", "Свитшот:BAPE"],
+    "Худи": ["Худи:Supreme"]
 }
 
 user_photo_index = {}
@@ -244,7 +282,9 @@ async def show_catalog(callback: CallbackQuery):
         "📦 Наш каталог товаров:\nВыберите категорию:",
         reply_markup=InlineKeyboardMarkup(inline_keyboard=[
             [InlineKeyboardButton(text="🧥 Зип худи", callback_data="Зип-худи")],
-            [InlineKeyboardButton(text="👕 Футболка", callback_data="Футболка")]
+            [InlineKeyboardButton(text="👕 Футболка", callback_data="Футболка")],
+            [InlineKeyboardButton(text="👕 Свитшот", callback_data="Свитшот")],
+            [InlineKeyboardButton(text="👕 Худи", callback_data="Худи")]
         ])
     )
     await callback.answer()
