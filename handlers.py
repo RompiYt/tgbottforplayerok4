@@ -42,7 +42,7 @@ PRODUCTS = {
             "."
         ]
     },
-    "Зип-худи:Karl Lagerfeld"{
+    "Зип-худи:Karl Lagerfeld":{
         "name": "Зип-худи:Karl Lagerfeld",
         "category": "Зип-худи",
         "material": "плотный хлопок",
@@ -52,7 +52,7 @@ PRODUCTS = {
             "."
         ]
     },
-    "Зип-худи:Burberry"{
+    "Зип-худи:Burberry":{
         "name": "Зип-худи:Burberry",
         "category": "Зип-худи",
         "material": "плотный хлопок",
