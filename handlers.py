@@ -359,7 +359,7 @@ PRODUCTS = {
             "",
         ]
     },
-    "Штаны:Nike"{
+    "Штаны:Nike":{
         "name": "Штаны:Nike",
         "category": "Спортивные-штаны",
         "material": "хлопок",
@@ -371,7 +371,7 @@ PRODUCTS = {
             "",
         ]
     },
-   "Костюм:Nike x Brazil"{
+   "Костюм:Nike x Brazil":{
        "name": "Костюм:Nike x Brazil",
        "category": "Костюм",
        "material": "100% полиэстер",
@@ -395,7 +395,7 @@ PRODUCTS = {
            "",
        ]
    },
-   "Джинсы:Dime"{
+   "Джинсы:Dime":{
        "name": "Джинсы:Dime",
        "category": "Джинсы",
        "material": "деним",
@@ -407,7 +407,7 @@ PRODUCTS = {
            "",
        ]
    },
-   "Свитшот:Armani Exchange"{
+   "Свитшот:Armani Exchange":{
        "name": "Свитшот:Armani Exchange",
        "category": "Свитшот",
        "material": "хлопковый трикотаж",
@@ -419,7 +419,7 @@ PRODUCTS = {
            "",
        ]
    },
-   "Костюм:Nike Tn"{
+   "Костюм:Nike Tn":{
        "name": "Костюм:Nike Tn",
        "category": "Костюм",
        "material": "высококачественная плащевка(водонепроницаемая)",
@@ -431,7 +431,7 @@ PRODUCTS = {
            "",
        ]
    },
-   "Худи:Russia"{
+   "Худи:Russia":{
        "name": "Худи:Russia",
        "category": "Худи",
        "material": "плотный высококачественный хлопок",
@@ -443,7 +443,7 @@ PRODUCTS = {
            "",
        ]
    },
-   "Джемпер:Polo Ralph Lauren"{
+   "Джемпер:Polo Ralph Lauren":{
        "name": "Джемпер:Polo Ralph Lauren",
        "category": "Джемпер",
        "material": "плотный хлопок",
@@ -455,7 +455,7 @@ PRODUCTS = {
            "",
        ]
    },
-   "Джемпер:Karl Lagerfeld"{
+   "Джемпер:Karl Lagerfeld":{
        "name": "Джемпер:Karl Lagerfeld",
        "category": "Джемпер",
        "material": "плотный хлопок",
@@ -467,7 +467,7 @@ PRODUCTS = {
            "",
        ]
    },
-   "Куртка:Lacoste"{
+   "Куртка:Lacoste":{
        "name": "Куртка:Lacoste",
        "category": "Куртка",
        "material": "стеганный текстиль",
@@ -479,7 +479,7 @@ PRODUCTS = {
            "",
        ]
    },
-   "Свитшот:Karl Lagerfeld"{
+   "Свитшот:Karl Lagerfeld":{
        "name": "Свитшот:Karl Lagerfeld",
        "category": "Свитшот",
        "material": "плотный хлопок",
@@ -491,7 +491,7 @@ PRODUCTS = {
            "",
        ]
    },
-   "Майка:Hermes"{
+   "Майка:Hermes":{
        "name": "Майка:Hermes",
        "category": "Футболка",
        "material": "хлопок",
@@ -503,7 +503,7 @@ PRODUCTS = {
            "",
        ]
    },
-   "Спортивный костюм:Zarra Suvene"{
+   "Спортивный костюм:Zarra Suvene":{
        "name": "Спортивный костюм:Zarra Suvene",
        "category": "Костюм",
        "material": "плотный хлопок",
@@ -515,7 +515,7 @@ PRODUCTS = {
            "",
        ]
    },
-   "Свитшот:Chrome Hearts"{
+   "Свитшот:Chrome Hearts":{
        "name": "Свитшот:Chrome Hearts",
        "category": "Свитшот",
        "material": "хлопок",
@@ -527,7 +527,7 @@ PRODUCTS = {
            "",
        ]
    },
-   "Кардиган:Maison margiela"{
+   "Кардиган:Maison margiela":{
        "name": "Кардиган:Maison margiela",
        "category": "Кардиган",
        "material": "плотный хлопок",
@@ -539,7 +539,7 @@ PRODUCTS = {
            "",
        ]
    },
-   "Полузамок:Polo Ralph Lauren"{
+   "Полузамок:Polo Ralph Lauren":{
        "name": "Полузамок:Polo Ralph Lauren",
        "category": "Поло",
        "material": "плотный хлопок",
@@ -551,7 +551,7 @@ PRODUCTS = {
            "",
        ]
    },
-   "Джинсы:Lacoste"{
+   "Джинсы:Lacoste":{
        "name": "Джинсы:Lacoste",
        "category": "Джинсы",
        "material": "деним",
