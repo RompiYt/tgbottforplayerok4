@@ -110,7 +110,7 @@ PRODUCTS = {
         "sizes": "S,M,L,XL,2XL(46,48,50,52,54)",
         "logo": "вышит",
         "photos": [
-            "AgACAgIAAxkBAAMUadNvRVXH9NKocazjvEBGfcxN6k8AAkMVaxuHV5hK8UI5i71IETsBAAMCAAN5AAM7BA",
+            "",
         ]
     },
     "Футболка:Balenciaga":{
@@ -123,7 +123,7 @@ PRODUCTS = {
         "sizes": "S,M,L,XL,2XL(46,48,50,52,54)",
         "logo": "вышит",
         "photos": [
-            "AgACAgIAAxkBAAMUadNvRVXH9NKocazjvEBGfcxN6k8AAkMVaxuHV5hK8UI5i71IETsBAAMCAAN5AAM7BA",
+            "",
         ]
     },
     "Футболка:Tommy Hilfiger":{
@@ -136,7 +136,7 @@ PRODUCTS = {
         "sizes": "S,M,L,XL,2XL(46,48,50,52,54)",
         "logo": "вышит",
         "photos": [
-            "AgACAgIAAxkBAAMUadNvRVXH9NKocazjvEBGfcxN6k8AAkMVaxuHV5hK8UI5i71IETsBAAMCAAN5AAM7BA",
+            "",
         ]
     },
     "Футболка:Emporio Armani":{
@@ -149,7 +149,7 @@ PRODUCTS = {
         "sizes": "S,M,L,XL,2XL(46,48,50,52,54)",
         "logo": "термонаклейка",
         "photos": [
-            "AgACAgIAAxkBAAMUadNvRVXH9NKocazjvEBGfcxN6k8AAkMVaxuHV5hK8UI5i71IETsBAAMCAAN5AAM7BA",
+            "",
         ]
     },
     "Футболка:Hugo Dobermann":{
@@ -162,7 +162,7 @@ PRODUCTS = {
         "sizes": "S,M,L,XL,2XL(46,48,50,52,54)",
         "logo": "графический принт",
         "photos": [
-            "AgACAgIAAxkBAAMUadNvRVXH9NKocazjvEBGfcxN6k8AAkMVaxuHV5hK8UI5i71IETsBAAMCAAN5AAM7BA",
+            "",
         ]
     },
     "Футболка:Hugo Full House":{
@@ -175,7 +175,7 @@ PRODUCTS = {
         "sizes": "S,M,L,XL,2XL(46,48,50,52,54)",
         "logo": "вышит",
         "photos": [
-            "AgACAgIAAxkBAAMUadNvRVXH9NKocazjvEBGfcxN6k8AAkMVaxuHV5hK8UI5i71IETsBAAMCAAN5AAM7BA",
+            "",
         ]
     },
     "Футболка:Polo Ralph lauren chief keef":{
@@ -188,7 +188,7 @@ PRODUCTS = {
         "sizes": "S,M,L,XL(46,48,50,52)",
         "logo": "вышит",
         "photos": [
-            "AgACAgIAAxkBAAMUadNvRVXH9NKocazjvEBGfcxN6k8AAkMVaxuHV5hK8UI5i71IETsBAAMCAAN5AAM7BA",
+            "",
         ]
     },
     "Футболка:Tommy Hilfiger":{
@@ -201,7 +201,7 @@ PRODUCTS = {
         "sizes": "S,M,L,XL,2XL(46,48,50,52,54)",
         "logo": "вышит",
         "photos": [
-            "AgACAgIAAxkBAAMUadNvRVXH9NKocazjvEBGfcxN6k8AAkMVaxuHV5hK8UI5i71IETsBAAMCAAN5AAM7BA",
+            "",
         ]
     },
     "Футболка:Hugo":{
@@ -214,7 +214,7 @@ PRODUCTS = {
         "sizes": "S,M,L,XL,2XL(46,48,50,52,54)",
         "logo": "графический принт",
         "photos": [
-            "AgACAgIAAxkBAAMUadNvRVXH9NKocazjvEBGfcxN6k8AAkMVaxuHV5hK8UI5i71IETsBAAMCAAN5AAM7BA",
+            "",
         ]
     },
     "Футболка:Guess":{
@@ -227,7 +227,7 @@ PRODUCTS = {
         "sizes": "S,M,L,XL,2XL(46,48,50,52,54)",
         "logo": "вышит",
         "photos": [
-            "AgACAgIAAxkBAAMUadNvRVXH9NKocazjvEBGfcxN6k8AAkMVaxuHV5hK8UI5i71IETsBAAMCAAN5AAM7BA",
+            "",
         ]
     },
     "Свитшот:GAP Palace":{
@@ -240,7 +240,7 @@ PRODUCTS = {
         "sizes": "S,M,L,XL,2XL(46,48,50,52,54)",
         "logo": "DTF печать",
         "photos": [
-            "AgACAgIAAxkBAAMUadNvRVXH9NKocazjvEBGfcxN6k8AAkMVaxuHV5hK8UI5i71IETsBAAMCAAN5AAM7BA",
+            "",
         ]
     },
     "Свитшот:BAPE":{
@@ -253,7 +253,7 @@ PRODUCTS = {
         "sizes": "S,M,L,XL,2XL(46,48,50,52,54)",
         "logo": "DTF печать",
         "photos": [
-            "AgACAgIAAxkBAAMUadNvRVXH9NKocazjvEBGfcxN6k8AAkMVaxuHV5hK8UI5i71IETsBAAMCAAN5AAM7BA",
+            "",
         ]
     },
     "Худи:Supreme":{
@@ -266,7 +266,7 @@ PRODUCTS = {
         "sizes": "S,M,L,XL,2XL(46,48,50,52,54)",
         "logo": "DTF печать",
         "photos": [
-            "AgACAgIAAxkBAAMUadNvRVXH9NKocazjvEBGfcxN6k8AAkMVaxuHV5hK8UI5i71IETsBAAMCAAN5AAM7BA",
+            "",
         ]
     },
     "Лонгслив:BAPE Chrome Hearts":{
@@ -954,7 +954,10 @@ PRODUCTS = {
        "price": "4990",
        "sizes": "40,41,42,43,44,45",
        "photos": [
-           "",
+           "AgACAgIAAxkBAAO-adbcyDkE77Ag6XbAYcjfD7vFhV4AAsoUaxu2WRhJhewRsQmRC54BAAMCAAN5AAM7BA",
+           "AgACAgIAAxkBAAPBadbcyKwAAR9hE_WcDtFFDvj8EbZVAALNFGsbtlkYSWYZF_BKHunZAQADAgADeQADOwQ",
+           "AgACAgIAAxkBAAO_adbcyF_2Pru27LFspvitk06eVvQAAssUaxu2WRhJY_wWqtPsW1cBAAMCAAN5AAM7BA",
+           "AgACAgIAAxkBAAPAadbcyCLrVxtYeuTesB_3chVYZcwAAswUaxu2WRhJkMdZgYCDLioBAAMCAAN5AAM7BA"
        ]
    }
 }
