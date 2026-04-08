@@ -370,19 +370,287 @@ PRODUCTS = {
         "photos": [
             "",
         ]
-    }
+    },
+   "Костюм:Nike x Brazil"{
+       "name": "Костюм:Nike x Brazil",
+       "category": "Костюм",
+       "material": "100% полиэстер",
+       "colors": "белая🤍ветровка и черные🖤/темно-зеленые💚 штаны",
+       "price": "штаны - 4000, ветровка - 4500",
+       "sizes": "штаны - S,M,L,XL / ветровка- S,M,L,XL",
+       "logo": "вышит",
+       "photos": [
+           "",
+       ]
+   },
+   "Джинсы:Maison Margiela"{
+       "name": "Джинсы:Maison Margiela",
+       "category": "Джинсы",
+       "material": "деним",
+       "colors": "синие",
+       "price": "3890",
+       "sizes": "XS,S,M,L,XL,2XL(38,40,42,44,46,48)",
+       "logo": "вышит",
+       "photos": [
+           "",
+       ]
+   },
+   "Джинсы:Dime"{
+       "name": "Джинсы:Dime",
+       "category": "Джинсы",
+       "material": "деним",
+       "colors": "черный🖤/белый🤍",
+       "price": "3990",
+       "sizes": "XS,S,M,L,XL,2XL(38,40,42,44,46,48)",
+       "logo": "вышит",
+       "photos": [
+           "",
+       ]
+   },
+   "Свитшот:Armani Exchange"{
+       "name": "Свитшот:Armani Exchange",
+       "category": "Свитшот",
+       "material": "хлопковый трикотаж",
+       "colors": "черный🖤/белый🤍",
+       "price": "3550",
+       "sizes": "S,M,L,XL,2XL(46,48,50,52,54)",
+       "logo": "флекс",
+       "photos": [
+           "",
+       ]
+   },
+   "Костюм:Nike Tn"{
+       "name": "Костюм:Nike Tn",
+       "category": "Костюм",
+       "material": "высококачественная плащевка(водонепроницаемая)",
+       "colors": "черный🖤",
+       "price": "4300(весь костюм)",
+       "sizes": "S,M,L,XL,2XL(46,48,50,52,54)",
+       "logo": "вышит",
+       "photos": [
+           "",
+       ]
+   },
+   "Худи:Russia"{
+       "name": "Худи:Russia",
+       "category": "Худи",
+       "material": "плотный высококачественный хлопок",
+       "colors": "черный🖤",
+       "price": "4499",
+       "sizes": "S,M,L,XL,2XL(40,42,44,46,48)",
+       "logo": "вышит",
+       "photos": [
+           "",
+       ]
+   },
+   "Джемпер:Polo Ralph Lauren"{
+       "name": "Джемпер:Polo Ralph Lauren",
+       "category": "Джемпер",
+       "material": "плотный хлопок",
+       "colors": "белый🤍/синий💙",
+       "price": "3390",
+       "sizes": "M,L,XL(42,44,46)",
+       "logo": "вышит",
+       "photos": [
+           "",
+       ]
+   },
+   "Джемпер:Karl Lagerfeld"{
+       "name": "Джемпер:Karl Lagerfeld",
+       "category": "Джемпер",
+       "material": "плотный хлопок",
+       "colors": "черный🖤",
+       "price": "3590",
+       "sizes": "S,M,L,XL,2XL(46,48,50,52,54)",
+       "logo": "3D силикон",
+       "photos": [
+           "",
+       ]
+   },
+   "Куртка:Lacoste"{
+       "name": "Куртка:Lacoste",
+       "category": "Куртка",
+       "material": "стеганный текстиль",
+       "colors": "черный🖤",
+       "price": "3690",
+       "sizes": "M,L,XL,2XL,3XL(48,50,52,54,56)",
+       "logo": "вышит",
+       "photos": [
+           "",
+       ]
+   },
+   "Свитшот:Karl Lagerfeld"{
+       "name": "Свитшот:Karl Lagerfeld",
+       "category": "Свитшот",
+       "material": "плотный хлопок",
+       "colors": "черный🖤",
+       "price": "3590",
+       "sizes": "S,M,L,XL,2XL(46,48,50,52,54)",
+       "logo": "вышит",
+       "photos": [
+           "",
+       ]
+   },
+   "Майка:Hermes"{
+       "name": "Майка:Hermes",
+       "category": "Футболка",
+       "material": "хлопок",
+       "colors": "черный🖤",
+       "price": "2490",
+       "sizes": "M,L,XL,2XL,3XL(маломерит)",
+       "logo": "вышит",
+       "photos": [
+           "",
+       ]
+   },
+   "Спортивный костюм:Zarra Suvene"{
+       "name": "Спортивный костюм:Zarra Suvene",
+       "category": "Костюм",
+       "material": "плотный хлопок",
+       "colors": "черный🖤/серый🩶",
+       "price": "3890",
+       "sizes": "S,M,L,XS,XL,2XL,3XL",
+       "logo": "вышит",
+       "photos": [
+           "",
+       ]
+   },
+   "Свитшот:Chrome Hearts"{
+       "name": "Свитшот:Chrome Hearts",
+       "category": "Свитшот",
+       "material": "хлопок",
+       "colors": "черный🖤/белый🤍",
+       "price": "3690",
+       "sizes": "S,M,L",
+       "logo": "вышит",
+       "photos": [
+           "",
+       ]
+   },
+   "Кардиган:Maison margiela"{
+       "name": "Кардиган:Maison margiela",
+       "category": "Кардиган",
+       "material": "плотный хлопок",
+       "colors": "черный🖤/белый🤍/серый🩶/синий💙",
+       "price": "2990",
+       "sizes": "S,M,L,XL(46,48,50,52)",
+       "logo": "нет",
+       "photos": [
+           "",
+       ]
+   },
+   "Полузамок:Polo Ralph Lauren"{
+       "name": "Полузамок:Polo Ralph Lauren",
+       "category": "Поло",
+       "material": "плотный хлопок",
+       "colors": "черный🖤",
+       "price": "2790",
+       "sizes": "M,L,XL,2XL(48,50,52,54)",
+       "logo": "вышит",
+       "photos": [
+           "",
+       ]
+   },
+   "Джинсы:Lacoste"{
+       "name": "Джинсы:Lacoste",
+       "category": "Джинсы",
+       "material": "деним",
+       "colors": "синий💙",
+       "price": "3660",
+       "sizes": "XS,S,M,L,XL,2XL(38,40,42,44,46,48)",
+       "logo": "вышит",
+       "photos": [
+           "",
+       ]
+   },
+   ""{
+       "name": "",
+       "category": "",
+       "material": "",
+       "colors": "",
+       "price": "",
+       "sizes": "",
+       "logo": "",
+       "photos": [
+           "",
+       ]
+   },
+   ""{
+       "name": "",
+       "category": "",
+       "material": "",
+       "colors": "",
+       "price": "",
+       "sizes": "",
+       "logo": "",
+       "photos": [
+           "",
+       ]
+   },
+   ""{
+       "name": "",
+       "category": "",
+       "material": "",
+       "colors": "",
+       "price": "",
+       "sizes": "",
+       "logo": "",
+       "photos": [
+           "",
+       ]
+   },
+   ""{
+       "name": "",
+       "category": "",
+       "material": "",
+       "colors": "",
+       "price": "",
+       "sizes": "",
+       "logo": "",
+       "photos": [
+           "",
+       ]
+   },
+   ""{
+       "name": "",
+       "category": "",
+       "material": "",
+       "colors": "",
+       "price": "",
+       "sizes": "",
+       "logo": "",
+       "photos": [
+           "",
+       ]
+   },
+   ""{
+       "name": "",
+       "category": "",
+       "material": "",
+       "colors": "",
+       "price": "",
+       "sizes": "",
+       "logo": "",
+       "photos": [
+           "",
+       ]
+   },
 }
 
 CATEGORIES = {
     "Зип-худи": ["Зип-худи:Balenciaga", "Зип-худи:Polo ralph lauren", "Зип-худи:Lacoste", "Зип-худи:Karl Lagerfeld", "Зип-худи:Burberry"],
-    "Футболка": ["Футболка:Aerounautica Мilitare", "Футболка:Balenciaga", "Футболка:Tommy Hilfiger", "Футболка:Emporio Armani", "Футболка:Hugo Dobermann", "Футболка:Hugo Full House", "Футболка:Polo Ralph lauren chief keef", "Футболка:Tommy Hilfiger", "Футболка:Hugo", "Футболка:Guess"],
-    "Свитшот": ["Свитшот:GAP Palace", "Свитшот:BAPE"],
-    "Худи": ["Худи:Supreme"],
+    "Футболка": ["Футболка:Aerounautica Мilitare", "Футболка:Balenciaga", "Футболка:Tommy Hilfiger", "Футболка:Emporio Armani", "Футболка:Hugo Dobermann", "Футболка:Hugo Full House", "Футболка:Polo Ralph lauren chief keef", "Футболка:Tommy Hilfiger", "Футболка:Hugo", "Футболка:Guess", "Майка:Hermes"],
+    "Свитшот": ["Свитшот:GAP Palace", "Свитшот:BAPE", "Свитшот:Armani Exchange", "Свитшот:Karl Lagerfeld", "Свитшот:Chrome Hearts"],
+    "Худи": ["Худи:Supreme", "Худи:Russia"],
     "Лонгслив": ["Лонгслив:BAPE Chrome Hearts", "Лонгслив:Gucci Garden", "Лонгслив:Chrome Hearts", "Лонгслив:Martine Rose"],
-    "Джинсы": ["Джинсы:Fred Perry and Lyle Scott"],
+    "Джинсы": ["Джинсы:Fred Perry and Lyle Scott", "Джинсы:Maison Margiela", "Джинсы:Dime", "Джинсы:Lacoste"],
     "Спортивные-штаны": ["Штаны широкие:Corteiz", "Штаны:Nike"],
     "Жилетка": ["Жилетка:Polo x Italy"],
-    "Поло": ["Поло:Corteiz", "Поло:polo ralph lauren"]
+    "Поло": ["Поло:Corteiz", "Поло:polo ralph lauren", "Полузамок:Polo Ralph Lauren"],
+    "Костюм": ["Костюм:Nike x Brazil", "Костюм:Nike Tn", "Спортивный костюм:Zarra Suvene"],
+    "Джемпер": ["Джемпер:Polo Ralph Lauren", "Джемпер:Karl Lagerfeld"],
+    "Куртка": ["Куртка:Lacoste"],
+    "Кардиган": ["Кардиган:Maison margiela"]
 }
 
 user_photo_index = {}
@@ -406,15 +674,19 @@ async def show_catalog(callback: CallbackQuery):
     await callback.message.edit_text(
         "📦 Наш каталог товаров:\nВыберите категорию:",
         reply_markup=InlineKeyboardMarkup(inline_keyboard=[
+            [InlineKeyboardButton(text="🧥 Куртка", callback_data="Куртка")],
             [InlineKeyboardButton(text="🧥 Зип худи", callback_data="Зип-худи")],
             [InlineKeyboardButton(text="🧥 Жилетка", callback_data="Жилетка")],
             [InlineKeyboardButton(text="👕 Футболка", callback_data="Футболка")],
             [InlineKeyboardButton(text="👕 Поло", callback_data="Поло")],
             [InlineKeyboardButton(text="👕 Лонгслив", callback_data="Лонгслив")],
             [InlineKeyboardButton(text="👕 Свитшот", callback_data="Свитшот")],
+            [InlineKeyboardButton(text="👕 Джемпер", callback_data="Джемпер")],
+            [InlineKeyboardButton(text="👕 Кардиган", callback_data="Кардиган")],
             [InlineKeyboardButton(text="👕 Худи", callback_data="Худи")],
             [InlineKeyboardButton(text="👖 Джинсы", callback_data="Джинсы")],
-            [InlineKeyboardButton(text="👖 Спортивные штаны", callback_data="Спортивные-штаны")]
+            [InlineKeyboardButton(text="👖 Спортивные штаны", callback_data="Спортивные-штаны")],
+            [InlineKeyboardButton(text="👖🧥 Костюм", callback_data="Костюм")]
         ])
     )
     await callback.answer()
