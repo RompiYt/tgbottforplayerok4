@@ -891,92 +891,72 @@ PRODUCTS = {
            "",
        ]
    },
-   "":{
+   "Кроссовки:Nike Air Jordan Retro 13":{
        "type": "shoes",
-       "name": "",
-       "category": "",
-       "material": "",
-       "colors": "",
-       "price": "",
-       "sizes": "",
-       "box": "фирменная коробка",
+       "name": "Кроссовки:Nike Air Jordan Retro 13",
+       "category": "Кроссовки",
+       "material": "натуральная кожа, замша, баллистический нейлон",
+       "price": "4690",
+       "sizes": "40,41,42,43,44,45",
        "photos": [
            "",
        ]
    },
-   "":{
+   "Кроссовки:Asics Gel pickax":{
        "type": "shoes",
-       "name": "",
-       "category": "",
-       "material": "",
-       "colors": "",
-       "price": "",
-       "sizes": "",
-       "box": "оригинальная коробка",
+       "name": "Кроссовки:Asics Gel pickax",
+       "category": "Кроссовки",
+       "material": "кожа-замша(верх), пеноматериал(низ)",
+       "price": "4490",
+       "sizes": "41,42,43,44,45",
        "photos": [
            "",
        ]
    },
-   "":{
+   "Кеды:numeris":{
        "type": "shoes",
-       "name": "",
-       "category": "",
-       "material": "",
-       "colors": "",
-       "price": "",
-       "sizes": "",
+       "name": "Кеды:numeris",
+       "category": "Кеды",
+       "material": "плотная ткань,кожа",
+       "price": "5290",
+       "sizes": "39,40,41,42,43,44,45",
        "photos": [
            "",
        ]
    },
-   "":{
+   "Мужские кроссовки:louis vuitton":{
        "type": "shoes",
-       "name": "",
-       "category": "",
-       "material": "",
-       "colors": "",
-       "price": "",
-       "sizes": "",
+       "name": "Мужские кроссовки:louis vuitton",
+       "category": "Кроссовки",
+       "material": "полиуритан,ткань",
+       "price": "3990",
+       "sizes": "41,42,43,44,45",
        "photos": [
            "",
        ]
    },
-   "":{
+   "Кеды:Golden Goose/DB":{
        "type": "shoes",
-       "name": "",
-       "category": "",
-       "material": "",
-       "colors": "",
-       "price": "",
-       "sizes": "",
+       "name": "Кеды:Golden Goose/DB",
+       "category": "Кеды",
+       "material": "кожа,замша",
+       "price": "4190",
+       "sizes": "39,40,41,42,43,44",
        "photos": [
            "",
        ]
    },
-   "":{
+   "Кеды:premiata":{
        "type": "shoes",
-       "name": "",
-       "category": "",
-       "material": "",
-       "colors": "",
-       "price": "",
-       "sizes": "",
+       "name": "Кеды:premiata",
+       "category": "Кеды",
+       "material": "эко-кожа",
+       "price": "4990",
+       "sizes": "40,41,42,43,44,45",
        "photos": [
            "",
        ]
-   },
-   "":{
-       "type": "shoes",
-       "name": "",
-       "category": "",
-       "material": "",
-       "colors": "",
-       "price": "",
-       "sizes": "",
-       "photos": [
-           "",
-       ]
-   },
+   }
 }
 
 CATEGORIES = {
@@ -993,8 +973,8 @@ CATEGORIES = {
     "Джемпер": ["Джемпер:Polo Ralph Lauren", "Джемпер:Karl Lagerfeld"],
     "Куртка": ["Куртка:Lacoste"],
     "Кардиган": ["Кардиган:Maison margiela"],
-    "Кроссовки": ["Кроссовки:Nike Initiator Custom", "Кроссовки:Raf Simons", "Кроссовки:Nike Air Jordan Retro 13", "Кроссовки:Adidas ozweego x Raf Simons", "Кроссовки:New Balance 9060", "Кроссовки:RAF Simons Antei Runner", "Кроссовки:New Balance 1906A", "Кроссовки:Adidas x Yeezy Boost 350 V2", "Кроссовки:Adidas Cp Company", "Низкие кроссовки:Nike Cortez", "Кроссовки:Balenciaga Track", "Кроссовки:New Balance 327", "Кроссовки:Nike air jordan 4", "Кроссовки:Nike Dunk Low", "Кроссовки:Nike Air Tailwind 4", "Кроссовки:Nike Air Jordan Low 1", "Кроссовки:New balance 574", "Кроссовки:Adidas Yeezy 700 V3", "", ""],
-    "Кеды": ["Кеды:Golden Goose", "Кеды:Golden Goose Stardan", "Кеды:Adidas Samba", "Кеды:Maison Margiela Replica Low", "", "", "", ""]
+    "Кроссовки": ["Кроссовки:Nike Initiator Custom", "Кроссовки:Raf Simons", "Кроссовки:Nike Air Jordan Retro 13", "Кроссовки:Adidas ozweego x Raf Simons", "Кроссовки:New Balance 9060", "Кроссовки:RAF Simons Antei Runner", "Кроссовки:New Balance 1906A", "Кроссовки:Adidas x Yeezy Boost 350 V2", "Кроссовки:Adidas Cp Company", "Низкие кроссовки:Nike Cortez", "Кроссовки:Balenciaga Track", "Кроссовки:New Balance 327", "Кроссовки:Nike air jordan 4", "Кроссовки:Nike Dunk Low", "Кроссовки:Nike Air Tailwind 4", "Кроссовки:Nike Air Jordan Low 1", "Кроссовки:New balance 574", "Кроссовки:Adidas Yeezy 700 V3", "Кроссовки:Nike Air Jordan Retro 13", "Кроссовки:Asics Gel pickax", "Мужские кроссовки:louis vuitton"],
+    "Кеды": ["Кеды:Golden Goose", "Кеды:Golden Goose Stardan", "Кеды:Adidas Samba", "Кеды:Maison Margiela Replica Low", "Кеды:numeris", "Кеды:Golden Goose/DB", "Кеды:premiata"]
 }
 
 user_photo_index = {}
