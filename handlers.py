@@ -8,6 +8,7 @@ user_last_category = {}
 
 PRODUCTS = {
     "Зип-худи:Balenciaga": {
+        "type": "clothes",
         "name": "Зип-худи:Balenciaga",
         "category": "Зип-худи",
         "material": "плотный хлопок",
@@ -24,6 +25,7 @@ PRODUCTS = {
         ]
     },
     "Зип-худи:Polo ralph lauren":{
+        "type": "clothes",
         "name": "Зип-худи:Polo ralph lauren",
         "category": "Зип-худи",
         "material": "хлопок",
@@ -37,6 +39,7 @@ PRODUCTS = {
         ]
     },
     "Зип-худи:Lacoste":{
+        "type": "clothes",
         "name": "Зип-худи:Lacoste",
         "category": "Зип-худи",
         "material": "плотный хлопок",
@@ -57,6 +60,7 @@ PRODUCTS = {
         ]
     },
     "Зип-худи:Karl Lagerfeld":{
+        "type": "clothes",
         "name": "Зип-худи:Karl Lagerfeld",
         "category": "Зип-худи",
         "material": "плотный хлопок",
@@ -76,6 +80,7 @@ PRODUCTS = {
         ]
     },
     "Зип-худи:Burberry":{
+        "type": "clothes",
         "name": "Зип-худи:Burberry",
         "category": "Зип-худи",
         "material": "плотный хлопок",
@@ -96,6 +101,7 @@ PRODUCTS = {
         ]
     },
     "Футболка:Aerounautica Мilitare":{
+        "type": "clothes",
         "name": "Футболка:Aerounautica Мilitare",
         "category": "Футболка",
         "material": "хлопок",
@@ -108,6 +114,7 @@ PRODUCTS = {
         ]
     },
     "Футболка:Balenciaga":{
+        "type": "clothes",
         "name": "Футболка:Balenciaga",
         "category": "Футболка",
         "material": "хлопок",
@@ -120,6 +127,7 @@ PRODUCTS = {
         ]
     },
     "Футболка:Tommy Hilfiger":{
+        "type": "clothes",
         "name": "Футболка:Tommy Hilfiger",
         "category": "Футболка",
         "material": "100% хлопок",
@@ -132,6 +140,7 @@ PRODUCTS = {
         ]
     },
     "Футболка:Emporio Armani":{
+        "type": "clothes",
         "name": "Футболка:Emporio Armani",
         "category": "Футболка",
         "material": "хлопок",
@@ -144,6 +153,7 @@ PRODUCTS = {
         ]
     },
     "Футболка:Hugo Dobermann":{
+        "type": "clothes",
         "name": "Футболка:Hugo Dobermann",
         "category": "Футболка",
         "material": "100% хлопок",
@@ -156,6 +166,7 @@ PRODUCTS = {
         ]
     },
     "Футболка:Hugo Full House":{
+        "type": "clothes",
         "name": "Футболка:Hugo Full House",
         "category": "Футболка",
         "material": "100% хлопок",
@@ -168,6 +179,7 @@ PRODUCTS = {
         ]
     },
     "Футболка:Polo Ralph lauren chief keef":{
+        "type": "clothes",
         "name": "Футболка:Polo Ralph lauren chief keef",
         "category": "Футболка",
         "material": "хлопок",
@@ -180,6 +192,7 @@ PRODUCTS = {
         ]
     },
     "Футболка:Tommy Hilfiger":{
+        "type": "clothes",
         "name": "Футболка:Tommy Hilfiger",
         "category": "Футболка",
         "material": "100% хлопок",
@@ -192,6 +205,7 @@ PRODUCTS = {
         ]
     },
     "Футболка:Hugo":{
+        "type": "clothes",
         "name": "Футболка:Hugo ",
         "category": "Футболка",
         "material": "100% хлопок",
@@ -204,6 +218,7 @@ PRODUCTS = {
         ]
     },
     "Футболка:Guess":{
+        "type": "clothes",
         "name": "Футболка:Guess",
         "category": "Футболка",
         "material": "100% хлопок",
@@ -216,6 +231,7 @@ PRODUCTS = {
         ]
     },
     "Свитшот:GAP Palace":{
+        "type": "clothes",
         "name": "Свитшот:GAP Palace",
         "category": "Свитшот",
         "material": "хлопок,полиэстер",
@@ -228,6 +244,7 @@ PRODUCTS = {
         ]
     },
     "Свитшот:BAPE":{
+        "type": "clothes",
         "name": "Свитшот:BAPE",
         "category": "Свитшот",
         "material": "хлопок,полиэстер",
@@ -240,6 +257,7 @@ PRODUCTS = {
         ]
     },
     "Худи:Supreme":{
+        "type": "clothes",
         "name": "Худи:Supreme",
         "category": "Худи",
         "material": "хлопок",
@@ -252,6 +270,7 @@ PRODUCTS = {
         ]
     },
     "Лонгслив:BAPE Chrome Hearts":{
+        "type": "clothes",
         "name": "Лонгслив:BAPE Chrome Hearts",
         "category": "Лонгслив",
         "material": "хлопок,полиэстер",
@@ -264,6 +283,7 @@ PRODUCTS = {
         ]
     },
     "Лонгслив:Gucci Garden":{
+        "type": "clothes",
         "name": "Лонгслив:Gucci Garden",
         "category": "Лонгслив",
         "material": "хлопок,полиэстер",
@@ -276,6 +296,7 @@ PRODUCTS = {
         ]
     },
     "Джинсы:Fred Perry and Lyle Scott":{
+        "type": "clothes",
         "name": "Джинсы:Fred Perry and Lyle Scott",
         "category": "Джинсы",
         "material": "деним",
@@ -288,6 +309,7 @@ PRODUCTS = {
         ]
     },
     "Штаны широкие:Corteiz":{
+        "type": "clothes",
         "name": "Штаны широкие:Corteiz",
         "category": "Спортивные-штаны",
         "material": "трикотаж",
@@ -300,6 +322,7 @@ PRODUCTS = {
         ]
     },
     "Жилетка:Polo x Italy":{
+        "type": "clothes",
         "name": "Жилетка:Polo x Italy",
         "category": "Жилетка",
         "material": "хлопок",
@@ -312,6 +335,7 @@ PRODUCTS = {
         ]
     },
     "Поло:Corteiz":{
+        "type": "clothes",
         "name": "Поло:Corteiz",
         "category": "Поло",
         "material": "хлопок",
@@ -324,6 +348,7 @@ PRODUCTS = {
         ]
     },
     "Лонгслив:Chrome Hearts":{
+        "type": "clothes",
         "name": "Лонгслив:Chrome Hearts",
         "category": "Лонгслив",
         "material": "хлопок,полиэстер",
@@ -336,6 +361,7 @@ PRODUCTS = {
         ]
     },
     "Поло:polo ralph lauren":{
+        "type": "clothes",
         "name": "Поло:polo ralph lauren",
         "category": "Поло",
         "material": "хлопок",
@@ -348,6 +374,7 @@ PRODUCTS = {
         ]
     },
     "Лонгслив:Martine Rose":{
+        "type": "clothes",
         "name": "Лонгслив:Martine Rose",
         "category": "Лонгслив",
         "material": "хлопок,полиэстер",
@@ -360,6 +387,7 @@ PRODUCTS = {
         ]
     },
     "Штаны:Nike":{
+        "type": "clothes",
         "name": "Штаны:Nike",
         "category": "Спортивные-штаны",
         "material": "хлопок",
@@ -372,6 +400,7 @@ PRODUCTS = {
         ]
     },
    "Костюм:Nike x Brazil":{
+       "type": "clothes",
        "name": "Костюм:Nike x Brazil",
        "category": "Костюм",
        "material": "100% полиэстер",
@@ -384,6 +413,7 @@ PRODUCTS = {
        ]
    },
    "Джинсы:Maison Margiela"{
+       "type": "clothes",
        "name": "Джинсы:Maison Margiela",
        "category": "Джинсы",
        "material": "деним",
@@ -396,6 +426,7 @@ PRODUCTS = {
        ]
    },
    "Джинсы:Dime":{
+       "type": "clothes",
        "name": "Джинсы:Dime",
        "category": "Джинсы",
        "material": "деним",
@@ -408,6 +439,7 @@ PRODUCTS = {
        ]
    },
    "Свитшот:Armani Exchange":{
+       "type": "clothes",
        "name": "Свитшот:Armani Exchange",
        "category": "Свитшот",
        "material": "хлопковый трикотаж",
@@ -420,6 +452,7 @@ PRODUCTS = {
        ]
    },
    "Костюм:Nike Tn":{
+       "type": "clothes",
        "name": "Костюм:Nike Tn",
        "category": "Костюм",
        "material": "высококачественная плащевка(водонепроницаемая)",
@@ -432,6 +465,7 @@ PRODUCTS = {
        ]
    },
    "Худи:Russia":{
+       "type": "clothes",
        "name": "Худи:Russia",
        "category": "Худи",
        "material": "плотный высококачественный хлопок",
@@ -444,6 +478,7 @@ PRODUCTS = {
        ]
    },
    "Джемпер:Polo Ralph Lauren":{
+       "type": "clothes",
        "name": "Джемпер:Polo Ralph Lauren",
        "category": "Джемпер",
        "material": "плотный хлопок",
@@ -456,6 +491,7 @@ PRODUCTS = {
        ]
    },
    "Джемпер:Karl Lagerfeld":{
+       "type": "clothes",
        "name": "Джемпер:Karl Lagerfeld",
        "category": "Джемпер",
        "material": "плотный хлопок",
@@ -468,6 +504,7 @@ PRODUCTS = {
        ]
    },
    "Куртка:Lacoste":{
+       "type": "clothes",
        "name": "Куртка:Lacoste",
        "category": "Куртка",
        "material": "стеганный текстиль",
@@ -480,6 +517,7 @@ PRODUCTS = {
        ]
    },
    "Свитшот:Karl Lagerfeld":{
+       "type": "clothes",
        "name": "Свитшот:Karl Lagerfeld",
        "category": "Свитшот",
        "material": "плотный хлопок",
@@ -492,6 +530,7 @@ PRODUCTS = {
        ]
    },
    "Майка:Hermes":{
+       "type": "clothes",
        "name": "Майка:Hermes",
        "category": "Футболка",
        "material": "хлопок",
@@ -504,6 +543,7 @@ PRODUCTS = {
        ]
    },
    "Спортивный костюм:Zarra Suvene":{
+       "type": "clothes",
        "name": "Спортивный костюм:Zarra Suvene",
        "category": "Костюм",
        "material": "плотный хлопок",
@@ -516,6 +556,7 @@ PRODUCTS = {
        ]
    },
    "Свитшот:Chrome Hearts":{
+       "type": "clothes",
        "name": "Свитшот:Chrome Hearts",
        "category": "Свитшот",
        "material": "хлопок",
@@ -528,6 +569,7 @@ PRODUCTS = {
        ]
    },
    "Кардиган:Maison margiela":{
+       "type": "clothes",
        "name": "Кардиган:Maison margiela",
        "category": "Кардиган",
        "material": "плотный хлопок",
@@ -540,6 +582,7 @@ PRODUCTS = {
        ]
    },
    "Полузамок:Polo Ralph Lauren":{
+       "type": "clothes",
        "name": "Полузамок:Polo Ralph Lauren",
        "category": "Поло",
        "material": "плотный хлопок",
@@ -552,6 +595,7 @@ PRODUCTS = {
        ]
    },
    "Джинсы:Lacoste":{
+       "type": "clothes",
        "name": "Джинсы:Lacoste",
        "category": "Джинсы",
        "material": "деним",
@@ -778,19 +822,32 @@ async def update_product(callback: CallbackQuery, product_id: str, index: int):
     product = PRODUCTS[product_id]
     photos = product["photos"]
 
-    caption = (
-        f"🧥 {product['name']}\n"
-        f"•📐размерная сетка:{product['sizes']}\n"
-        f"•🪽материал-{product['material']}\n"
-        f"•🎨 цвета в наличии:{product['colors']}\n"
-        f"•🏷️ бирки фирменные\n"
-        f"•📌 логотип-{product['logo']}\n"
-        f"•💸 цена - {product['price']}\n"
-        f"•✅ по поводу оформления заказа писать @EYRoyul  @Emendgi_manager\n"
-        f"•‼️ уточнять о наличии товара у менеджера\n"
-        f"\n📸 {index+1}/{len(photos)}"
-    )
+    if product["type"] == "clothes":
+        caption = (
+            f"🧥 {product['name']}\n"
+            f"•📐размерная сетка:{product.get('sizes', '—')}\n"
+            f"•🪽материал-{product.get('material', '—')}\n"
+            f"•🎨 цвета:{product.get('colors', '—')}\n"
+            f"•🏷️ бирки фирменные\n"
+            f"•📌 логотип-{product.get('logo', '—')}\n"
+            f"•💸 цена - {product.get('price', '—')}\n"
+            f"•✅ писать @EYRoyul  @Emendgi_manager\n"
+            f"•‼️ уточнять наличие\n"
+            f"\n📸 {index+1}/{len(photos)}"
+        )
+        
+    elif product["type"] == "shoes":
+        box_text = f"•📦 {product['box']}\n" if product.get("box") else ""
 
+        caption = (
+            f"👟 {product['name']}\n"
+            f"•📐размеры: {product['sizes']}\n"
+            f"•🌸материал: {product['material']}\n"
+            f"•🎨 цвета:{product.get('colors', '—')}\n"
+            f"{box_text}"
+            f"•💸 цена: {product['price']}\n"
+            f"\n📸 {index+1}/{len(photos)}"
+        )
     await callback.message.edit_media(
         media=InputMediaPhoto(
             media=photos[index],
@@ -798,7 +855,6 @@ async def update_product(callback: CallbackQuery, product_id: str, index: int):
         ),
         reply_markup=get_keyboard(product_id, index)
     )
-
 
 def get_keyboard(product_id, index):
     photos = PRODUCTS[product_id]["photos"]
