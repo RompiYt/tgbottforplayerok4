@@ -611,11 +611,282 @@ PRODUCTS = {
        "type": "shoes",
        "name": "Кроссовки:Nike Initiator Custom",
        "category": "Кроссовки",
-       "material": "",
-       "colors": "",
-       "price": "",
-       "sizes": "",
-       "logo": "",
+       "material": "сетчатые вставки/пеноматериал/прочная резина",
+       "price": "4199",
+       "sizes": "37,38,39,40,41",
+       "box": "оригинальная коробка",
+       "photos": [
+           "",
+       ]
+   },
+   "Кроссовки:Raf Simons":{
+       "type": "shoes",
+       "name": "Кроссовки:Raf Simons",
+       "category": "Кроссовки",
+       "material": "замша/нейлон/эко-кожа",
+       "colors": "черный🖤/белый🤍/черно-белый🔲",
+       "price": "5200",
+       "sizes": "40,41,42,43,44",
+       "box": "оригинальная коробка",
+       "photos": [
+           "",
+       ]
+   },
+   "Кроссовки:Nike Air Jordan Retro 13":{
+       "type": "shoes",
+       "name": "Кроссовки:Nike Air Jordan Retro 13",
+       "category": "Кроссовки",
+       "material": "натуральная кожа, замша, баллистический нейлон",
+       "price": "4690",
+       "sizes": "40,41,42,43,44,45",
+       "photos": [
+           "",
+       ]
+   },
+   "Кеды:Golden Goose":{
+       "type": "shoes",
+       "name": "Кеды:Golden Goose",
+       "category": "Кеды",
+       "material": "кожа",
+       "colors": "белый🤍",
+       "price": "5700",
+       "box": "оригинальная коробка",
+       "sizes": "41,42,43,44,45",
+       "photos": [
+           "",
+       ]
+   },
+   "Кеды:Golden Goose Stardan"{
+       "type": "shoes",
+       "name": "Кеды:Golden Goose Stardan",
+       "category": "Кеды",
+       "material": "кожа",
+       "colors": "черный🖤",
+       "price": "5700",
+       "sizes": "41,42,43,44,45",
+       "box": "оригинальная коробка",
+       "photos": [
+           "",
+       ]
+   },
+   "Кроссовки:Adidas ozweego x Raf Simons":{
+       "type": "shoes",
+       "name": "Кроссовки:Adidas ozweego x Raf Simons",
+       "category": "Кроссовки",
+       "material": "кожа",
+       "price": "6000",
+       "sizes": "41,42,43,44,45",
+       "box": "оригинальная коробка",
+       "photos": [
+           "",
+       ]
+   },
+   "Кроссовки:New Balance 9060":{
+       "type": "shoes",
+       "name": "Кроссовки:New Balance 9060",
+       "category": "Кроссовки",
+       "material": "натуральная замша/сетчатые вставки",
+       "price": "4199",
+       "box": "оригинальная коробка",
+       "sizes": "37,38,39,40,41,42,43,44",
+       "photos": [
+           "",
+       ]
+   },
+   "Кроссовки:RAF Simons Antei Runner":{
+       "type": "shoes",
+       "name": "Кроссовки:RAF Simons Antei Runner",
+       "category": "Кроссовки",
+       "material": "кожа,замша",
+       "box": "оригинальная коробка",
+       "price": "6000",
+       "sizes": "41,42,43,44,45",
+       "photos": [
+           "",
+       ]
+   },
+   "Кроссовки:Maison Margiela Future high":{
+       "type": "shoes",
+       "name": "Кроссовки:Maison Margiela Future high",
+       "category": "Кроссовки",
+       "material": "эко кожа",
+       "box": "оригинальная коробка",
+       "price": "3890",
+       "sizes": "38,39,40,41,42,43,44,45",
+       "photos": [
+           "",
+       ]
+   },
+   "Кроссовки:New Balance 1906A":{
+       "type": "shoes",
+       "name": "Кроссовки:New Balance 1906A",
+       "category": "Кроссовки",
+       "material": "сетчатые вставки/прочная резина/пеноматареил",
+       "price": "4999",
+       "sizes": "40,41,42,43,44,46",
+       "box": "оригинальная коробка",
+       "photos": [
+           "",
+       ]
+   },
+   "Кроссовки:Adidas x Yeezy Boost 350 V2":{
+       "type": "shoes",
+       "name": "Кроссовки:Adidas x Yeezy Boost 350 V2",
+       "category": "Кроссовки",
+       "material": "ткань primeknit",
+       "colors": "белый🤍",
+       "price": "4500",
+       "sizes": "37,38,39,40,41,42,43,44,45",
+       "box": "оригинальная коробка",
+       "photos": [
+           "",
+       ]
+   },
+   "Кроссовки:Adidas Cp Company":{
+       "type": "shoes",
+       "name": "Кроссовки:Adidas Cp Company",
+       "category": "Кроссовки",
+       "material": "замша(верх),прочная резина(низ)",
+       "colors": "темно-синий💙/голубой🐬",
+       "price": "4199",
+       "sizes": "41,42,43,44,45",
+       "box": "оригинальная коробка",
+       "photos": [
+           "",
+       ]
+   },
+   "Низкие кроссовки:Nike Cortez":{
+       "type": "shoes",
+       "name": "Низкие кроссовки:Nike Cortez",
+       "category": "Кроссовки",
+       "material": "кожа,замш",
+       "price": "3290",
+       "box": "оригинальная коробка",
+       "sizes": "37,38,39,40,41",
+       "photos": [
+           "",
+       ]
+   },
+   "Кроссовки:Balenciaga Track":{
+       "type": "shoes",
+       "name": "Кроссовки:Balenciaga Track",
+       "category": "Кроссовки",
+       "material": "сетчатый текстиль/нейлон/искусственная кожа/прочная резина",
+       "colors": "белый🤍/черный🖤/оранжевый🧡",
+       "box": "оригинальная коробка",
+       "price": "6000",
+       "sizes": "37,38,39,40,41,42,43,44,45",
+       "photos": [
+           "",
+       ]
+   },
+   "Кроссовки:New Balance 327":{
+       "type": "shoes",
+       "name": "Кроссовки:New Balance 327",
+       "category": "Кроссовки",
+       "material": "замша/нейлон/сетчатый материал",
+       "box": "оригинальная коробка",
+       "colors": "серый🩶/зеленый💚",
+       "price": "3990",
+       "sizes": "40,41,42,43,44",
+       "photos": [
+           "",
+       ]
+   },
+   "Кроссовки:Nike air jordan 4":{
+       "type": "shoes",
+       "name": "Кроссовки:Nike air jordan 4",
+       "category": "Кроссовки",
+       "material": "(верх)нубук,(низ)резина Air Sole",
+       "box": "фирменная коробка",
+       "price": "3890",
+       "sizes": "41,42,43,44,45",
+       "photos": [
+           "",
+       ]
+   },
+   "Кроссовки:Nike Dunk Low":{
+       "type": "shoes",
+       "name": "Кроссовки:Nike Dunk Low",
+       "category": "Кроссовки",
+       "material": "кожа",
+       "price": "3590",
+       "sizes": "37,38,39,40,41,42,43,44,45",
+       "box": "фирменная коробка",
+       "photos": [
+           "",
+       ]
+   },
+   "Кроссовки:Nike Air Tailwind 4":{
+       "type": "shoes",
+       "name": "Кроссовки:Nike Air Tailwind 4",
+       "category": "Кроссовки",
+       "material": "сетчатые вставки/синтетические накладки/пеноматериал",
+       "colors": "на фото",
+       "price": "3990",
+       "box": "оригинальная коробка",
+       "sizes": "41,42,43,44,45",
+       "photos": [
+           "",
+       ]
+   },
+   "Кроссовки:Nike Air Jordan Low 1":{
+       "type": "shoes",
+       "name": "Кроссовки:Nike Air Jordan Low 1",
+       "category": "Кроссовки",
+       "material": "натуральная кожа",
+       "box": "оригинальная коробка",
+       "price": "3890",
+       "sizes": "37,38,39,40,41,42,43,44,45",
+       "photos": [
+           "",
+       ]
+   },
+   "Кроссовки:New balance 574":{
+       "type": "shoes",
+       "name": "Кроссовки:New balance 574",
+       "category": "Кроссовки",
+       "material": "замша",
+       "box": "фирменная коробка",
+       "price": "3990",
+       "sizes": "41,42,43,44,45,46",
+       "photos": [
+           "",
+       ]
+   },
+   "Кеды:Adidas Samba":{
+       "type": "shoes",
+       "name": "Кеды:Adidas Samba",
+       "category": "Кеды",
+       "material": "натуральная кожа/замша",
+       "price": "3590",
+       "box": "оригинальная коробка",
+       "sizes": "41,42,43,44,45",
+       "photos": [
+           "",
+       ]
+   },
+   "Кеды:Maison Margiela Replica Low":{
+       "type": "shoes",
+       "name": "Кеды:Maison Margiela Replica Low",
+       "category": "Кеды",
+       "material": "замша/кожа",
+       "colors": "черный🖤/серый🩶",
+       "price": "5000",
+       "box": "оригинальная коробка",
+       "sizes": "41,42,43,44,45",
+       "photos": [
+           "",
+       ]
+   },
+   "Кроссовки:Adidas Yeezy 700 V3":{
+       "type": "shoes",
+       "name": "Кроссовки:Adidas Yeezy 700 V3",
+       "category": "Кроссовки",
+       "material": "моноволоконная сетка,текстиль",
+       "price": "3390",
+       "sizes": "41,42,43,44,45",
+       "box": "оригинальная коробка",
        "photos": [
            "",
        ]
@@ -628,7 +899,7 @@ PRODUCTS = {
        "colors": "",
        "price": "",
        "sizes": "",
-       "logo": "",
+       "box": "фирменная коробка",
        "photos": [
            "",
        ]
@@ -641,7 +912,7 @@ PRODUCTS = {
        "colors": "",
        "price": "",
        "sizes": "",
-       "logo": "",
+       "box": "оригинальная коробка",
        "photos": [
            "",
        ]
@@ -654,20 +925,6 @@ PRODUCTS = {
        "colors": "",
        "price": "",
        "sizes": "",
-       "logo": "",
-       "photos": [
-           "",
-       ]
-   },
-   ""{
-       "type": "shoes",
-       "name": "",
-       "category": "",
-       "material": "",
-       "colors": "",
-       "price": "",
-       "sizes": "",
-       "logo": "",
        "photos": [
            "",
        ]
@@ -680,7 +937,6 @@ PRODUCTS = {
        "colors": "",
        "price": "",
        "sizes": "",
-       "logo": "",
        "photos": [
            "",
        ]
@@ -693,7 +949,6 @@ PRODUCTS = {
        "colors": "",
        "price": "",
        "sizes": "",
-       "logo": "",
        "photos": [
            "",
        ]
@@ -706,7 +961,6 @@ PRODUCTS = {
        "colors": "",
        "price": "",
        "sizes": "",
-       "logo": "",
        "photos": [
            "",
        ]
@@ -719,280 +973,6 @@ PRODUCTS = {
        "colors": "",
        "price": "",
        "sizes": "",
-       "logo": "",
-       "photos": [
-           "",
-       ]
-   },
-   "":{
-       "type": "shoes",
-       "name": "",
-       "category": "",
-       "material": "",
-       "colors": "",
-       "price": "",
-       "sizes": "",
-       "logo": "",
-       "photos": [
-           "",
-       ]
-   },
-   "":{
-       "type": "shoes",
-       "name": "",
-       "category": "",
-       "material": "",
-       "colors": "",
-       "price": "",
-       "sizes": "",
-       "logo": "",
-       "photos": [
-           "",
-       ]
-   },
-   "":{
-       "type": "shoes",
-       "name": "",
-       "category": "",
-       "material": "",
-       "colors": "",
-       "price": "",
-       "sizes": "",
-       "logo": "",
-       "photos": [
-           "",
-       ]
-   },
-   "":{
-       "type": "shoes",
-       "name": "",
-       "category": "",
-       "material": "",
-       "colors": "",
-       "price": "",
-       "sizes": "",
-       "logo": "",
-       "photos": [
-           "",
-       ]
-   },
-   "":{
-       "type": "shoes",
-       "name": "",
-       "category": "",
-       "material": "",
-       "colors": "",
-       "price": "",
-       "sizes": "",
-       "logo": "",
-       "photos": [
-           "",
-       ]
-   },
-   "":{
-       "type": "shoes",
-       "name": "",
-       "category": "",
-       "material": "",
-       "colors": "",
-       "price": "",
-       "sizes": "",
-       "logo": "",
-       "photos": [
-           "",
-       ]
-   },
-   "":{
-       "type": "shoes",
-       "name": "",
-       "category": "",
-       "material": "",
-       "colors": "",
-       "price": "",
-       "sizes": "",
-       "logo": "",
-       "photos": [
-           "",
-       ]
-   },
-   "":{
-       "type": "shoes",
-       "name": "",
-       "category": "",
-       "material": "",
-       "colors": "",
-       "price": "",
-       "sizes": "",
-       "logo": "",
-       "photos": [
-           "",
-       ]
-   },
-   "":{
-       "type": "shoes",
-       "name": "",
-       "category": "",
-       "material": "",
-       "colors": "",
-       "price": "",
-       "sizes": "",
-       "logo": "",
-       "photos": [
-           "",
-       ]
-   },
-   "":{
-       "type": "shoes",
-       "name": "",
-       "category": "",
-       "material": "",
-       "colors": "",
-       "price": "",
-       "sizes": "",
-       "logo": "",
-       "photos": [
-           "",
-       ]
-   },
-   "":{
-       "type": "shoes",
-       "name": "",
-       "category": "",
-       "material": "",
-       "colors": "",
-       "price": "",
-       "sizes": "",
-       "logo": "",
-       "photos": [
-           "",
-       ]
-   },
-   "":{
-       "type": "shoes",
-       "name": "",
-       "category": "",
-       "material": "",
-       "colors": "",
-       "price": "",
-       "sizes": "",
-       "logo": "",
-       "photos": [
-           "",
-       ]
-   },
-   "":{
-       "type": "shoes",
-       "name": "",
-       "category": "",
-       "material": "",
-       "colors": "",
-       "price": "",
-       "sizes": "",
-       "logo": "",
-       "photos": [
-           "",
-       ]
-   },
-   "":{
-       "type": "shoes",
-       "name": "",
-       "category": "",
-       "material": "",
-       "colors": "",
-       "price": "",
-       "sizes": "",
-       "logo": "",
-       "photos": [
-           "",
-       ]
-   },
-   "":{
-       "type": "shoes",
-       "name": "",
-       "category": "",
-       "material": "",
-       "colors": "",
-       "price": "",
-       "sizes": "",
-       "logo": "",
-       "photos": [
-           "",
-       ]
-   },
-   "":{
-       "type": "shoes",
-       "name": "",
-       "category": "",
-       "material": "",
-       "colors": "",
-       "price": "",
-       "sizes": "",
-       "logo": "",
-       "photos": [
-           "",
-       ]
-   },
-   "":{
-       "type": "shoes",
-       "name": "",
-       "category": "",
-       "material": "",
-       "colors": "",
-       "price": "",
-       "sizes": "",
-       "logo": "",
-       "photos": [
-           "",
-       ]
-   },
-   "":{
-       "type": "shoes",
-       "name": "",
-       "category": "",
-       "material": "",
-       "colors": "",
-       "price": "",
-       "sizes": "",
-       "logo": "",
-       "photos": [
-           "",
-       ]
-   },
-   "":{
-       "type": "shoes",
-       "name": "",
-       "category": "",
-       "material": "",
-       "colors": "",
-       "price": "",
-       "sizes": "",
-       "logo": "",
-       "photos": [
-           "",
-       ]
-   },
-   "":{
-       "type": "shoes",
-       "name": "",
-       "category": "",
-       "material": "",
-       "colors": "",
-       "price": "",
-       "sizes": "",
-       "logo": "",
-       "photos": [
-           "",
-       ]
-   },
-   "":{
-       "type": "shoes",
-       "name": "",
-       "category": "",
-       "material": "",
-       "colors": "",
-       "price": "",
-       "sizes": "",
-       "logo": "",
        "photos": [
            "",
        ]
@@ -1012,7 +992,9 @@ CATEGORIES = {
     "Костюм": ["Костюм:Nike x Brazil", "Костюм:Nike Tn", "Спортивный костюм:Zarra Suvene"],
     "Джемпер": ["Джемпер:Polo Ralph Lauren", "Джемпер:Karl Lagerfeld"],
     "Куртка": ["Куртка:Lacoste"],
-    "Кардиган": ["Кардиган:Maison margiela"]
+    "Кардиган": ["Кардиган:Maison margiela"],
+    "Кроссовки": ["Кроссовки:Nike Initiator Custom", "Кроссовки:Raf Simons", "Кроссовки:Nike Air Jordan Retro 13", "Кроссовки:Adidas ozweego x Raf Simons", "Кроссовки:New Balance 9060", "Кроссовки:RAF Simons Antei Runner", "Кроссовки:New Balance 1906A", "Кроссовки:Adidas x Yeezy Boost 350 V2", "Кроссовки:Adidas Cp Company", "Низкие кроссовки:Nike Cortez", "Кроссовки:Balenciaga Track", "Кроссовки:New Balance 327", "Кроссовки:Nike air jordan 4", "Кроссовки:Nike Dunk Low", "Кроссовки:Nike Air Tailwind 4", "Кроссовки:Nike Air Jordan Low 1", "Кроссовки:New balance 574", "Кроссовки:Adidas Yeezy 700 V3", "", ""],
+    "Кеды": ["Кеды:Golden Goose", "Кеды:Golden Goose Stardan", "Кеды:Adidas Samba", "Кеды:Maison Margiela Replica Low", "", "", "", ""]
 }
 
 user_photo_index = {}
@@ -1158,12 +1140,13 @@ async def update_product(callback: CallbackQuery, product_id: str, index: int):
         
     elif product["type"] == "shoes":
         box_text = f"•📦 {product['box']}\n" if product.get("box") else ""
-
+        colors_text = f"•🎨 цвета: {product['colors']}\n" if product.get("colors") else "
+        
         caption = (
             f"👟 {product['name']}\n"
             f"•📐размеры: {product['sizes']}\n"
             f"•🌸материал: {product['material']}\n"
-            f"•🎨 цвета:{product.get('colors', '—')}\n"
+            f"{colors_text}"
             f"{box_text}"
             f"•💸 цена: {product['price']}\n"
             f"\n📸 {index+1}/{len(photos)}"
