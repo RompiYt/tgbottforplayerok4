@@ -607,7 +607,47 @@ PRODUCTS = {
            "",
        ]
    },
-   ""{
+   "Кроссовки:Nike Initiator Custom":{
+       "type": "shoes",
+       "name": "Кроссовки:Nike Initiator Custom",
+       "category": "Кроссовки",
+       "material": "",
+       "colors": "",
+       "price": "",
+       "sizes": "",
+       "logo": "",
+       "photos": [
+           "",
+       ]
+   },
+   "":{
+       "type": "shoes",
+       "name": "",
+       "category": "",
+       "material": "",
+       "colors": "",
+       "price": "",
+       "sizes": "",
+       "logo": "",
+       "photos": [
+           "",
+       ]
+   },
+   "":{
+       "type": "shoes",
+       "name": "",
+       "category": "",
+       "material": "",
+       "colors": "",
+       "price": "",
+       "sizes": "",
+       "logo": "",
+       "photos": [
+           "",
+       ]
+   },
+   "":{
+       "type": "shoes",
        "name": "",
        "category": "",
        "material": "",
@@ -620,6 +660,7 @@ PRODUCTS = {
        ]
    },
    ""{
+       "type": "shoes",
        "name": "",
        "category": "",
        "material": "",
@@ -631,7 +672,8 @@ PRODUCTS = {
            "",
        ]
    },
-   ""{
+   "":{
+       "type": "shoes",
        "name": "",
        "category": "",
        "material": "",
@@ -643,7 +685,8 @@ PRODUCTS = {
            "",
        ]
    },
-   ""{
+   "":{
+       "type": "shoes",
        "name": "",
        "category": "",
        "material": "",
@@ -655,7 +698,8 @@ PRODUCTS = {
            "",
        ]
    },
-   ""{
+   "":{
+       "type": "shoes",
        "name": "",
        "category": "",
        "material": "",
@@ -667,7 +711,281 @@ PRODUCTS = {
            "",
        ]
    },
-   ""{
+   "":{
+       "type": "shoes",
+       "name": "",
+       "category": "",
+       "material": "",
+       "colors": "",
+       "price": "",
+       "sizes": "",
+       "logo": "",
+       "photos": [
+           "",
+       ]
+   },
+   "":{
+       "type": "shoes",
+       "name": "",
+       "category": "",
+       "material": "",
+       "colors": "",
+       "price": "",
+       "sizes": "",
+       "logo": "",
+       "photos": [
+           "",
+       ]
+   },
+   "":{
+       "type": "shoes",
+       "name": "",
+       "category": "",
+       "material": "",
+       "colors": "",
+       "price": "",
+       "sizes": "",
+       "logo": "",
+       "photos": [
+           "",
+       ]
+   },
+   "":{
+       "type": "shoes",
+       "name": "",
+       "category": "",
+       "material": "",
+       "colors": "",
+       "price": "",
+       "sizes": "",
+       "logo": "",
+       "photos": [
+           "",
+       ]
+   },
+   "":{
+       "type": "shoes",
+       "name": "",
+       "category": "",
+       "material": "",
+       "colors": "",
+       "price": "",
+       "sizes": "",
+       "logo": "",
+       "photos": [
+           "",
+       ]
+   },
+   "":{
+       "type": "shoes",
+       "name": "",
+       "category": "",
+       "material": "",
+       "colors": "",
+       "price": "",
+       "sizes": "",
+       "logo": "",
+       "photos": [
+           "",
+       ]
+   },
+   "":{
+       "type": "shoes",
+       "name": "",
+       "category": "",
+       "material": "",
+       "colors": "",
+       "price": "",
+       "sizes": "",
+       "logo": "",
+       "photos": [
+           "",
+       ]
+   },
+   "":{
+       "type": "shoes",
+       "name": "",
+       "category": "",
+       "material": "",
+       "colors": "",
+       "price": "",
+       "sizes": "",
+       "logo": "",
+       "photos": [
+           "",
+       ]
+   },
+   "":{
+       "type": "shoes",
+       "name": "",
+       "category": "",
+       "material": "",
+       "colors": "",
+       "price": "",
+       "sizes": "",
+       "logo": "",
+       "photos": [
+           "",
+       ]
+   },
+   "":{
+       "type": "shoes",
+       "name": "",
+       "category": "",
+       "material": "",
+       "colors": "",
+       "price": "",
+       "sizes": "",
+       "logo": "",
+       "photos": [
+           "",
+       ]
+   },
+   "":{
+       "type": "shoes",
+       "name": "",
+       "category": "",
+       "material": "",
+       "colors": "",
+       "price": "",
+       "sizes": "",
+       "logo": "",
+       "photos": [
+           "",
+       ]
+   },
+   "":{
+       "type": "shoes",
+       "name": "",
+       "category": "",
+       "material": "",
+       "colors": "",
+       "price": "",
+       "sizes": "",
+       "logo": "",
+       "photos": [
+           "",
+       ]
+   },
+   "":{
+       "type": "shoes",
+       "name": "",
+       "category": "",
+       "material": "",
+       "colors": "",
+       "price": "",
+       "sizes": "",
+       "logo": "",
+       "photos": [
+           "",
+       ]
+   },
+   "":{
+       "type": "shoes",
+       "name": "",
+       "category": "",
+       "material": "",
+       "colors": "",
+       "price": "",
+       "sizes": "",
+       "logo": "",
+       "photos": [
+           "",
+       ]
+   },
+   "":{
+       "type": "shoes",
+       "name": "",
+       "category": "",
+       "material": "",
+       "colors": "",
+       "price": "",
+       "sizes": "",
+       "logo": "",
+       "photos": [
+           "",
+       ]
+   },
+   "":{
+       "type": "shoes",
+       "name": "",
+       "category": "",
+       "material": "",
+       "colors": "",
+       "price": "",
+       "sizes": "",
+       "logo": "",
+       "photos": [
+           "",
+       ]
+   },
+   "":{
+       "type": "shoes",
+       "name": "",
+       "category": "",
+       "material": "",
+       "colors": "",
+       "price": "",
+       "sizes": "",
+       "logo": "",
+       "photos": [
+           "",
+       ]
+   },
+   "":{
+       "type": "shoes",
+       "name": "",
+       "category": "",
+       "material": "",
+       "colors": "",
+       "price": "",
+       "sizes": "",
+       "logo": "",
+       "photos": [
+           "",
+       ]
+   },
+   "":{
+       "type": "shoes",
+       "name": "",
+       "category": "",
+       "material": "",
+       "colors": "",
+       "price": "",
+       "sizes": "",
+       "logo": "",
+       "photos": [
+           "",
+       ]
+   },
+   "":{
+       "type": "shoes",
+       "name": "",
+       "category": "",
+       "material": "",
+       "colors": "",
+       "price": "",
+       "sizes": "",
+       "logo": "",
+       "photos": [
+           "",
+       ]
+   },
+   "":{
+       "type": "shoes",
+       "name": "",
+       "category": "",
+       "material": "",
+       "colors": "",
+       "price": "",
+       "sizes": "",
+       "logo": "",
+       "photos": [
+           "",
+       ]
+   },
+   "":{
+       "type": "shoes",
        "name": "",
        "category": "",
        "material": "",
@@ -730,7 +1048,9 @@ async def show_catalog(callback: CallbackQuery):
             [InlineKeyboardButton(text="👕 Худи", callback_data="Худи")],
             [InlineKeyboardButton(text="👖 Джинсы", callback_data="Джинсы")],
             [InlineKeyboardButton(text="👖 Спортивные штаны", callback_data="Спортивные-штаны")],
-            [InlineKeyboardButton(text="👖🧥 Костюм", callback_data="Костюм")]
+            [InlineKeyboardButton(text="👖🧥 Костюм", callback_data="Костюм")],
+            [inlineKeyboardButton(text="👟Кроссовки", callback_data="Кроссовки")],
+            [inlineKeyboardButton(text="👟Кеды", callback_data="Кеды")]
         ])
     )
     await callback.answer()
