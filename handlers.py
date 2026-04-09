@@ -903,7 +903,7 @@ PRODUCTS = {
            "AgACAgIAAxkBAAP-adbgkheT5TUlohfrrQaw3TP69u8AAtISaxve6vBJtwTZMda_pEgBAAMCAAN5AAM7BA"
        ]
    },
-   "Кеды:Golden Goose Stardan"{
+   "Кеды:Golden Goose Stardan":{
        "type": "shoes",
        "name": "Кеды:Golden Goose Stardan",
        "category": "Кеды",
