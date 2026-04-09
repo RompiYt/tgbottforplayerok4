@@ -569,7 +569,7 @@ PRODUCTS = {
            "AgACAgIAAxkBAAICvmnXfP5QMknxrxvEwHdzIlnhWtmHAAKhFGsbnGmYSUVVbXvSbQHoAQADAgADeQADOwQ"
        ]
    },
-   "Джинсы:Maison Margiela"{
+   "Джинсы:Maison Margiela":{
        "type": "clothes",
        "name": "Джинсы:Maison Margiela",
        "category": "Джинсы",
