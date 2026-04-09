@@ -1557,7 +1557,7 @@ async def update_product(callback: CallbackQuery, product_id: str, index: int):
         
     elif product["type"] == "shoes":
         box_text = f"•📦 {product['box']}\n" if product.get("box") else ""
-        colors_text = f"•🎨 цвета: {product['colors']}\n" if product.get("colors") else "
+        colors_text = f"•🎨 цвета: {product['colors']}\n" if product.get("colors") else ""
         
         caption = (
             f"👟 {product['name']}\n"
