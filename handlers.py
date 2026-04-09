@@ -1448,8 +1448,8 @@ async def show_catalog(callback: CallbackQuery):
             [InlineKeyboardButton(text="👖 Джинсы", callback_data="Джинсы")],
             [InlineKeyboardButton(text="👖 Спортивные штаны", callback_data="Спортивные-штаны")],
             [InlineKeyboardButton(text="👖🧥 Костюм", callback_data="Костюм")],
-            [inlineKeyboardButton(text="👟Кроссовки", callback_data="Кроссовки")],
-            [inlineKeyboardButton(text="👟Кеды", callback_data="Кеды")]
+            [InlineKeyboardButton(text="👟Кроссовки", callback_data="Кроссовки")],
+            [InlineKeyboardButton(text="👟Кеды", callback_data="Кеды")]
         ])
     )
     await callback.answer()
