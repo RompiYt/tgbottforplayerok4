@@ -24,6 +24,51 @@ PRODUCTS = {
             "AgACAgIAAxkBAAMTadNvReGSsvuHG5434g9P4TikvQYAAkIVaxuHV5hK-zwwlzbYx0gBAAMCAAN5AAM7BA"
         ]
     },
+    "Зип-худи:Alpha Industries": {
+        "type": "clothes",
+        "name": "Зип-худи:Alpha Industries",
+        "category": "Зип-худи",
+        "material": "плотный хлопок",
+        "colors": "черный🖤",
+        "price": "3990",
+        "sizes": "S,M,L,XL,2XL(46,48,50,52,54)",
+        "logo": "DTF печать",
+        "photos": [
+            "AgACAgIAAxkBAAIFJGnXnlr2QuWQspXWa7BGjC4U0rhEAALgEGsbMRC5StLtmzf31yM9AQADAgADeQADOwQ",
+            "AgACAgIAAxkBAAIFJmnXnloPYXp4BpthjqRrKpVSeL1oAALjEGsbMRC5Ssc9Rw3GfZagAQADAgADeQADOwQ",
+            "AgACAgIAAxkBAAIFKGnXnlrsDoHwsY63SxXKhZ3rqPT9AALlEGsbMRC5SqUu4eiNwbvhAQADAgADeQADOwQ",
+            "AgACAgIAAxkBAAIFJWnXnlq9it1nNJMjb2IUELWTpU7nAALiEGsbMRC5SrGxmV-k8ib9AQADAgADeQADOwQ",
+            "AgACAgIAAxkBAAIFJ2nXnloMMu0V7h4-GdhVKp5rlF_-AALkEGsbMRC5Ss0Jb6FqqaJ3AQADAgADeQADOwQ",
+            "AgACAgIAAxkBAAIFKWnXnlr_NZR0WDoanl9C9l3OKy09AALmEGsbMRC5SqbG6khpX0HmAQADAgADeQADOwQ",
+            "AgACAgIAAxkBAAIFK2nXnlqoesyTNWtBVpxbs0f7qEHSAALoEGsbMRC5SsAwDzzeMFWqAQADAgADeQADOwQ",
+            "AgACAgIAAxkBAAIFKmnXnlrn9_7PAbsbDnoVybTqXDEyAALnEGsbMRC5SiR_vyfrlToGAQADAgADeQADOwQ",
+            "AgACAgIAAxkBAAIFOGnXn2hlaSR0dPgFjunRp58udtsTAAJJFGsblxygSsaOM5rbLQ0CAQADAgADeQADOwQ",
+            "AgACAgIAAxkBAAIFN2nXn2j5U29fEn6Y1zRKORMjlrqYAAJIFGsblxygSgbWyc3JIGBvAQADAgADeQADOwQ",
+            "AgACAgIAAxkBAAIFNWnXn2hPXMgSogROEDHMhTTZqlkXAAJGFGsblxygSthPrIRfiAwxAQADAgADeQADOwQ",
+            "AgACAgIAAxkBAAIFNGnXn2jgnY6tZkudvQQ-C5ZGD_IiAAJFFGsblxygSniM2mmdbqRyAQADAgADeQADOwQ",
+            "AgACAgIAAxkBAAIFNmnXn2hWvHyTfQ9mNA0AAVI_M_eJMgACRxRrG5ccoEoPMTrdKmoN8QEAAwIAA3kAAzsE"
+        ]
+    },
+    "Поло:Gucci": {
+        "type": "clothes",
+        "name": "Поло:Gucci"
+        "category": "Поло",
+        "material": "хлопок",
+        "colors": "белый🤍",
+        "price": "2399",
+        "sizes": "S,M,L,XL,2XL(46,48,50,52,54)",
+        "logo": "бархат",
+        "photos": [
+            "AgACAgIAAxkBAAIFQmnXn6XEa0nLDL09tIgLHgXZkhPkAAKDFmsbH0eQSiSqE1JBOY_hAQADAgADdwADOwQ",
+            "AgACAgIAAxkBAAIFP2nXn6VnqJ8wjweozWDZEaVcLL2KAAKAFmsbH0eQShJ6N7c3u-esAQADAgADdwADOwQ",
+            "AgACAgIAAxkBAAIFQ2nXn6VAnmexYMt95ZxIh4TyqQkqAAKEFmsbH0eQSuV7tMhK_hP-AQADAgADdwADOwQ",
+            "AgACAgIAAxkBAAIFPmnXn6USKWDZyrA326sjh_dD94-EAAJ_FmsbH0eQShuXaKEv0smkAQADAgADdwADOwQ",
+            "AgACAgIAAxkBAAIFRWnXn6U7DncGmYdFSMabqAbQAcgoAAKGFmsbH0eQShGfFOs0bm8DAQADAgADdwADOwQ",
+            "AgACAgIAAxkBAAIFQGnXn6WqkdNceZXDLMDczxoo8qufAAKBFmsbH0eQSkqlTwEZDw2tAQADAgADdwADOwQ",
+            "AgACAgIAAxkBAAIFQWnXn6U23Wlhuz_v4zkp7z1AkFJsAAKCFmsbH0eQShRt0F0ychWtAQADAgADdwADOwQ",
+            "AgACAgIAAxkBAAIFRGnXn6XKIPnTV_bYCLWPer0klAdeAAKFFmsbH0eQSvC0DVGwSGXWAQADAgADdwADOwQ"
+        ]
+    },
     "Зип-худи:Polo ralph lauren":{
         "type": "clothes",
         "name": "Зип-худи:Polo ralph lauren",
@@ -829,6 +874,25 @@ PRODUCTS = {
            "AgACAgIAAxkBAAIEvmnXjKISi-4qlTHVe5IvRBzmwdUsAAJoFGsbtlkYSbz0JJC215V2AQADAgADdwADOwQ"
        ]
    },
+   "Полузамок:polo ralph lauren":{
+       "type": "clothes",
+       "name": "Полузамок:polo ralph lauren",
+       "category": "Поло",
+       "material": "плотный трикотаж",
+       "colors": "синий💙/черный🖤/белый🤍/серый🩶",
+       "price": "3490",
+       "sizes": "S,M,L,XL,2XL(46,48,50,52,54)",
+       "logo": "вышит",
+       "photos": [
+           "AgACAgIAAxkBAAIFFmnXnOtGaJk2NYancD21PExxDHZJAALvEGsbMRC5Sk_LCU1psg-1AQADAgADeQADOwQ",
+           "AgACAgIAAxkBAAIFGGnXnOtlM5PyJHRJAcjsJtihSkP8AALxEGsbMRC5SufI9yaeN-TqAQADAgADeQADOwQ",
+           "AgACAgIAAxkBAAIFG2nXnOtEB0DTTNfv8G6rUjG_5HdPAAL0EGsbMRC5Sj_A3-yDnwIeAQADAgADeQADOwQ",
+           "AgACAgIAAxkBAAIFGmnXnOsjIXHVW16ElLDoi4bSVfe9AALzEGsbMRC5Sl0HQwqC2X2TAQADAgADeQADOwQ",
+           "AgACAgIAAxkBAAIFF2nXnOtLyQABPE6n4jaQVWEFvUY71QAC8BBrGzEQuUpPhtUG8RmhhgEAAwIAA3kAAzsE",
+           "AgACAgIAAxkBAAIFHGnXnOsHBpeHb_zy35NUWMjpOdgXAAL1EGsbMRC5SmrJg7NOsl0DAQADAgADeQADOwQ",
+           "AgACAgIAAxkBAAIFGWnXnOsiHRPsBR9HgCbyZGriduFyAALyEGsbMRC5SsoBU2oMiDEjAQADAgADeQADOwQ"
+       ]
+   }
    "Кроссовки:Nike Initiator Custom":{
        "type": "shoes",
        "name": "Кроссовки:Nike Initiator Custom",
@@ -1393,11 +1457,45 @@ PRODUCTS = {
            "AgACAgIAAxkBAAO-adbcyDkE77Ag6XbAYcjfD7vFhV4AAsoUaxu2WRhJhewRsQmRC54BAAMCAAN5AAM7BA",
            "AgACAgIAAxkBAAPBadbcyKwAAR9hE_WcDtFFDvj8EbZVAALNFGsbtlkYSWYZF_BKHunZAQADAgADeQADOwQ"
        ]
+   },
+   "Кеды:adidas superstar":{
+       "type": "shoes",
+       "name": "Кеды:adidas superstar",
+       "category": "Кеды",
+       "material": "кожа",
+       "price": "3399",
+       "box": "оригинальная коробка",
+       "sizes": "36,37,38,39,40,41",
+       "photos": [
+           "AgACAgIAAxkBAAIFT2nXoM5P_bIuygo0SrYNiz2kqmT6AAKJFGsblxygStnwWuovlEmwAQADAgADeQADOwQ",
+           "AgACAgIAAxkBAAIFUGnXoM6Isg6AHTzTdBJ-2v6ljyuyAAKKFGsblxygSpJyptzYdenWAQADAgADeQADOwQ",
+           "AgACAgIAAxkBAAIFUWnXoM44YiB4h1c6XIzAekrJau7uAAKLFGsblxygSq1hK1v_QajYAQADAgADeQADOwQ",
+           "AgACAgIAAxkBAAIFTmnXoM7boi1hWNwM4iPpeZ9MyBmAAAKIFGsblxygSuQpoUn8eVIeAQADAgADeQADOwQ",
+           "AgACAgIAAxkBAAIFUmnXoM6YUNr6dwKWNQ7D8ziiMbdQAAKMFGsblxygSuyslo21PcSTAQADAgADeQADOwQ"
+       ]
+   },
+   "Кроссовки:Lanvin curb":{
+       "type": "shoes",
+       "name": "Кроссовки:Lanvin curb",
+       "category": "Кроссовки",
+       "material": "хлопок,кожа",
+       "price": "5990",
+       "sizes": "41,42,43,44,45,46",
+       "box": "оригинальная коробка",
+       "photos": [
+           "AgACAgIAAxkBAAIFWWnXoZpOZZfGKP2tDudYo-05f3lGAAIdFGsbMRCxSqsnS0MUwae_AQADAgADeQADOwQ",
+           "AgACAgIAAxkBAAIFWGnXoZo5mL70M-4PTf5UFvDtJQn4AAIcFGsbMRCxSrpqC9eAuzRvAQADAgADeQADOwQ",
+           "AgACAgIAAxkBAAIFYGnXogVVBr58QQISkrDdTPQlyA_DAAInFGsbMRCxSvP18iFw_yy0AQADAgADeQADOwQ",
+           "AgACAgIAAxkBAAIFXGnXogUJPA54qAABwWrEFDo9HyVMogACIxRrGzEQsUqGaX_ZKqC89QEAAwIAA3kAAzsE",
+           "AgACAgIAAxkBAAIFXWnXogVMi4PxkHzHbWtPBge1kskdAAIkFGsbMRCxSnQ97nqGYYdZAQADAgADeQADOwQ",
+           "AgACAgIAAxkBAAIFXmnXogX2LLF7EA_zxF9sLa6v1NnsAAIlFGsbMRCxShKc1TcigekVAQADAgADeQADOwQ",
+           "AgACAgIAAxkBAAIFX2nXogWaO5zhwtC5MWYkLA5UcTqsAAImFGsbMRCxSmJ51nTuHjMDAQADAgADeQADOwQ"
+       ]
    }
 }
 
 CATEGORIES = {
-    "Зип-худи": ["Зип-худи:Balenciaga", "Зип-худи:Polo ralph lauren", "Зип-худи:Lacoste", "Зип-худи:Karl Lagerfeld", "Зип-худи:Burberry"],
+    "Зип-худи": ["Зип-худи:Balenciaga", "Зип-худи:Polo ralph lauren", "Зип-худи:Lacoste", "Зип-худи:Karl Lagerfeld", "Зип-худи:Burberry", "Зип-худи:Alpha Industries"],
     "Футболка": ["Футболка:Aerounautica Мilitare", "Футболка:Balenciaga", "Футболка:Tommy Hilfiger", "Футболка:Emporio Armani", "Футболка:Hugo Dobermann", "Футболка:Hugo Full House", "Футболка:Polo Ralph lauren chief keef", "Футболка:Tommy Hilfiger", "Футболка:Hugo", "Футболка:Guess", "Майка:Hermes"],
     "Свитшот": ["Свитшот:GAP Palace", "Свитшот:BAPE", "Свитшот:Armani Exchange", "Свитшот:Karl Lagerfeld", "Свитшот:Chrome Hearts"],
     "Худи": ["Худи:Supreme", "Худи:Russia"],
@@ -1405,13 +1503,13 @@ CATEGORIES = {
     "Джинсы": ["Джинсы:Fred Perry and Lyle Scott", "Джинсы:Maison Margiela", "Джинсы:Dime", "Джинсы:Lacoste"],
     "Спортивные-штаны": ["Штаны широкие:Corteiz", "Штаны:Nike"],
     "Жилетка": ["Жилетка:Polo x Italy"],
-    "Поло": ["Поло:Corteiz", "Поло:polo ralph lauren", "Полузамок:Polo Ralph Lauren"],
+    "Поло": ["Поло:Corteiz", "Поло:polo ralph lauren", "Полузамок:Polo Ralph Lauren", "Полузамок:polo ralph lauren", "Поло:Gucci"],
     "Костюм": ["Костюм:Nike x Brazil", "Костюм:Nike Tn", "Спортивный костюм:Zarra Suvene"],
     "Джемпер": ["Джемпер:Polo Ralph Lauren", "Джемпер:Karl Lagerfeld"],
     "Куртка": ["Куртка:Lacoste"],
     "Кардиган": ["Кардиган:Maison margiela"],
-    "Кроссовки": ["Кроссовки:Nike Initiator Custom", "Кроссовки:Raf Simons", "Кроссовки:Nike Air Jordan Retro 13", "Кроссовки:Adidas ozweego x Raf Simons", "Кроссовки:New Balance 9060", "Кроссовки:RAF Simons Antei Runner", "Кроссовки:New Balance 1906A", "Кроссовки:Adidas x Yeezy Boost 350 V2", "Кроссовки:Adidas Cp Company", "Низкие кроссовки:Nike Cortez", "Кроссовки:Balenciaga Track", "Кроссовки:New Balance 327", "Кроссовки:Nike air jordan 4", "Кроссовки:Nike Dunk Low", "Кроссовки:Nike Air Tailwind 4", "Кроссовки:Nike Air Jordan Low 1", "Кроссовки:New balance 574", "Кроссовки:Adidas Yeezy 700 V3", "Кроссовки:Nike Air Jordan Retro 13", "Кроссовки:Asics Gel pickax", "Мужские кроссовки:louis vuitton"],
-    "Кеды": ["Кеды:Golden Goose", "Кеды:Golden Goose Stardan", "Кеды:Adidas Samba", "Кеды:Maison Margiela Replica Low", "Кеды:numeris", "Кеды:Golden Goose/DB", "Кеды:premiata"]
+    "Кроссовки": ["Кроссовки:Nike Initiator Custom", "Кроссовки:Raf Simons", "Кроссовки:Nike Air Jordan Retro 13", "Кроссовки:Adidas ozweego x Raf Simons", "Кроссовки:New Balance 9060", "Кроссовки:RAF Simons Antei Runner", "Кроссовки:New Balance 1906A", "Кроссовки:Adidas x Yeezy Boost 350 V2", "Кроссовки:Adidas Cp Company", "Низкие кроссовки:Nike Cortez", "Кроссовки:Balenciaga Track", "Кроссовки:New Balance 327", "Кроссовки:Nike air jordan 4", "Кроссовки:Nike Dunk Low", "Кроссовки:Nike Air Tailwind 4", "Кроссовки:Nike Air Jordan Low 1", "Кроссовки:New balance 574", "Кроссовки:Adidas Yeezy 700 V3", "Кроссовки:Nike Air Jordan Retro 13", "Кроссовки:Asics Gel pickax", "Мужские кроссовки:louis vuitton", "Кроссовки:Lanvin curb"],
+    "Кеды": ["Кеды:Golden Goose", "Кеды:Golden Goose Stardan", "Кеды:Adidas Samba", "Кеды:Maison Margiela Replica Low", "Кеды:numeris", "Кеды:Golden Goose/DB", "Кеды:premiata", "Кеды:adidas superstar"]
 }
 
 user_photo_index = {}
