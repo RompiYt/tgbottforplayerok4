@@ -892,7 +892,7 @@ PRODUCTS = {
            "AgACAgIAAxkBAAIFHGnXnOsHBpeHb_zy35NUWMjpOdgXAAL1EGsbMRC5SmrJg7NOsl0DAQADAgADeQADOwQ",
            "AgACAgIAAxkBAAIFGWnXnOsiHRPsBR9HgCbyZGriduFyAALyEGsbMRC5SsoBU2oMiDEjAQADAgADeQADOwQ"
        ]
-   }
+   },
    "Кроссовки:Nike Initiator Custom":{
        "type": "shoes",
        "name": "Кроссовки:Nike Initiator Custom",
@@ -1687,7 +1687,3 @@ def get_keyboard(product_id, index):
     buttons.append([InlineKeyboardButton(text="⬅️ Назад", callback_data="back_to_category")])
     return InlineKeyboardMarkup(inline_keyboard=buttons)
 
-@router.message(F.photo)
-async def get_file_ids(message: Message):
-    file_id = message.photo[-1].file_id
-    await message.answer(f"✅ File ID для этой фотки:\n`{file_id}`", parse_mode="Markdown")
