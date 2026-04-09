@@ -51,7 +51,7 @@ PRODUCTS = {
     },
     "Поло:Gucci": {
         "type": "clothes",
-        "name": "Поло:Gucci"
+        "name": "Поло:Gucci",
         "category": "Поло",
         "material": "хлопок",
         "colors": "белый🤍",
